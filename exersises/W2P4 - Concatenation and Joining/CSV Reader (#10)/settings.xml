@@ -25,7 +25,7 @@
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="MOUNTPOINT"/>
                     <entry key="file_system_specifier" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="/data/adult_file_6_personal.csv"/>
+                    <entry key="path" type="xstring" value="/data/W2/adult_file_6_personal.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -69,7 +69,7 @@
         <config key="table_spec_config_Internals">
             <entry key="version" type="xstring" value="V4_4"/>
             <config key="individual_specs">
-                <config key="/data/adult_file_6_personal.csv">
+                <config key="/data/W2/adult_file_6_personal.csv">
                     <entry key="num_columns" type="xint" value="4"/>
                     <config key="0">
                         <entry key="name" type="xstring" value="age"/>
@@ -217,7 +217,7 @@
                     <entry key="force_type" type="xboolean" value="false"/>
                 </config>
             </config>
-            <entry key="source_group_id" type="xstring" value="/data/adult_file_6_personal.csv"/>
+            <entry key="source_group_id" type="xstring" value="/data/W2/adult_file_6_personal.csv"/>
             <config key="config_id">
                 <config key="multi_table_read">
                     <config key="settings">
@@ -308,6 +308,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="511c907b-fc3d-4954-a6e5-1159cbe33a1f"/>
+        <entry key="file_store_id" type="xstring" value="c2227c81-df04-4ca8-b387-4961479dff45"/>
     </config>
 </config>

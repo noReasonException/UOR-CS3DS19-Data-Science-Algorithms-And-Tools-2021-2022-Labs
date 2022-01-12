@@ -25,7 +25,7 @@
                     <entry key="location_present" type="xboolean" value="true"/>
                     <entry key="file_system_type" type="xstring" value="MOUNTPOINT"/>
                     <entry key="file_system_specifier" type="xstring" value="LOCAL"/>
-                    <entry key="path" type="xstring" value="data/adult_file_3_male.csv"/>
+                    <entry key="path" type="xstring" value="data/W2/adult_file_3_male.csv"/>
                 </config>
                 <config key="filter_mode_Internals">
                     <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
@@ -87,6 +87,6 @@
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1a11add0-bb64-4fb7-be07-75b49742221b"/>
+        <entry key="file_store_id" type="xstring" value="6aeba134-5503-41cb-af08-bbbfeb76c216"/>
     </config>
 </config>

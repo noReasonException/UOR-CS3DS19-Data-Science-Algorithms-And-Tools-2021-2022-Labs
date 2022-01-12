@@ -156,7 +156,7 @@
                 <path d="M401 431 L424 431 L424 442 L401 442 L401 431 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath48">
-                <path d="M-1 -1 L941 -1 L941 840 L-1 840 L-1 -1 Z"/>
+                <path d="M-1 -1 L926 -1 L926 844 L-1 844 L-1 -1 Z"/>
             </clipPath>
         </defs>
         <g stroke-miterlimit="0" stroke-width="0" font-size="11"
@@ -1233,34 +1233,34 @@ YII=" xlink:actuate="onLoad"/>
            font-family="&apos;.AppleSystemUIFont&apos;"
            stroke="rgb(150,150,150)" stroke-width="2">
             <path fill="none"
-                  d="M237 336 C239 336 243 336 245 336 C278 336 325 336 358 336 C360 336 364 336 366 336"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M237 236 C239 236 243 236 245 236 C278 236 325 236 358 236 C360 236 364 236 366 236"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M77 236 C79 236 83 236 85 236 C125 236 138 136 178 136 C180 136 184 136 186 136"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M77 236 C79 236 83 236 85 236 C151 236 112 36 178 36 C180 36 184 36 186 36"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M237 36 C239 36 243 36 245 36 C278 36 325 36 358 36 C360 36 364 36 366 36"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M77 236 C79 236 83 236 85 236 C151 236 112 436 178 436 C180 436 184 436 186 436"
+                  d="M237 436 C239 436 243 436 245 436 C278 436 325 436 358 436 C360 436 364 436 366 436"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M237 136 C239 136 243 136 245 136 C278 136 325 136 358 136 C360 136 364 136 366 136"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M77 236 C79 236 83 236 85 236 C112 236 151 236 178 236 C180 236 184 236 186 236"
-                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
-            <path fill="none"
                   d="M77 236 C79 236 83 236 85 236 C125 236 138 336 178 336 C180 336 184 336 186 336"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M237 436 C239 436 243 436 245 436 C278 436 325 436 358 436 C360 436 364 436 366 436"
+                  d="M77 236 C79 236 83 236 85 236 C151 236 112 36 178 36 C180 36 184 36 186 36"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M77 236 C79 236 83 236 85 236 C112 236 151 236 178 236 C180 236 184 236 186 236"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M237 36 C239 36 243 36 245 36 C278 36 325 36 358 36 C360 36 364 36 366 36"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M77 236 C79 236 83 236 85 236 C125 236 138 136 178 136 C180 136 184 136 186 136"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M237 236 C239 236 243 236 245 236 C278 236 325 236 358 236 C360 236 364 236 366 236"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M237 336 C239 336 243 336 245 336 C278 336 325 336 358 336 C360 336 364 336 366 336"
+                  clip-path="url(#clipPath48)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M77 236 C79 236 83 236 85 236 C151 236 112 436 178 436 C180 436 184 436 186 436"
                   clip-path="url(#clipPath48)" fill-rule="evenodd"/>
         </g>
     </g>

@@ -8,8 +8,8 @@
     <config key="model">
         <entry key="fail_on_duplicates" type="xboolean" value="false"/>
         <entry key="append_suffix" type="xboolean" value="true"/>
-        <entry key="suffix" type="xstring" value="_dup"/>
         <entry key="intersection_of_columns" type="xboolean" value="false"/>
+        <entry key="suffix" type="xstring" value="_dup"/>
         <entry key="enable_hiliting" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -43,6 +43,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="02927d2f-e4a0-4cf6-92f7-8323090efc82"/>
+        <entry key="file_store_id" type="xstring" value="981298c8-4ef4-4c64-a914-5729596e11b7"/>
     </config>
 </config>
