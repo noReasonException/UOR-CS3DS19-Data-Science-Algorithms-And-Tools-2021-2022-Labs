@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  6 FEB 2022 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  7 FEB 2022 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
-(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 )
 \c@part=\count179
 \c@section=\count180
@@ -795,7 +795,32 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box69
 )
 \@float@every@table=\toks44
-\c@note=\count314
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen289
+\captionmargin@=\dimen290
+\captionwidth=\dimen291
+\caption@tempdima=\dimen292
+\caption@indent=\dimen293
+\caption@parindent=\dimen294
+\caption@hangindent=\dimen295
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count314
+\c@continuedfloat=\count315
+Package caption Info: float package is loaded.
+)
+\c@subfigure=\count316
+\c@subtable=\count317
+)
+\c@note=\count318
 
 (/usr/local/texlive/2021/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
 s/tikzlibraryautomata.code.tex
@@ -834,23 +859,23 @@ s/tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count315
+\lst@mode=\count319
 \lst@gtempboxa=\box90
 \lst@token=\toks45
-\lst@length=\count316
-\lst@currlwidth=\dimen289
-\lst@column=\count317
-\lst@pos=\count318
-\lst@lostspace=\dimen290
-\lst@width=\dimen291
-\lst@newlines=\count319
-\lst@lineno=\count320
-\lst@maxwidth=\dimen292
+\lst@length=\count320
+\lst@currlwidth=\dimen296
+\lst@column=\count321
+\lst@pos=\count322
+\lst@lostspace=\dimen297
+\lst@width=\dimen298
+\lst@newlines=\count323
+\lst@lineno=\count324
+\lst@maxwidth=\dimen299
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count321
-\lst@skipnumbers=\count322
+\c@lstnumber=\count325
+\lst@skipnumbers=\count326
 \lst@framebox=\box91
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/listings/listings.cfg
@@ -858,40 +883,101 @@ File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 6
+6.
 
-LaTeX Warning: Unused global option(s):
-    [openany].
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+) (./main.aux
 
-(./main.aux)
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:figures' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-
-(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+ (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count323
-\scratchdimen=\dimen293
+\scratchcounter=\count327
+\scratchdimen=\dimen300
 \scratchbox=\box92
-\nofMPsegments=\count324
-\nofMParguments=\count325
+\nofMPsegments=\count328
+\nofMParguments=\count329
 \everyMPshowfont=\toks46
-\MPscratchCnt=\count326
-\MPscratchDim=\dimen294
-\MPnumerator=\count327
-\makeMPintoPDFobject=\count328
+\MPscratchCnt=\count330
+\MPscratchDim=\dimen301
+\MPnumerator=\count331
+\makeMPintoPDFobject=\count332
 \everyMPtoPDFconversion=\toks47
 ) (/usr/local/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -924,12 +1010,12 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 * \topmargin=-7.86334pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -939,51 +1025,148 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.17}).
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count329
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count333
 
-Overfull \hbox (31.74632pt too wide) in paragraph at lines 61--61
+Overfull \hbox (31.74632pt too wide) in paragraph at lines 67--67
  | 
  []
 
 
-Overfull \hbox (31.74632pt too wide) in paragraph at lines 61--61
+Overfull \hbox (31.74632pt too wide) in paragraph at lines 67--67
  []| 
  []
 
-[1
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 67.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 67.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 67.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 67.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+ [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2]
-Underfull \hbox (badness 2173) in paragraph at lines 70--71
-[]\OT1/cmr/m/it/10 En.wikipedia.org. 2021. United States Free Speech Ex-cep-tio
-ns. [on-line] Avail-able at:
+<res/workflow.png, id=10, 1716.4125pt x 803.0pt>
+File: res/workflow.png Graphic file (type png)
+<use res/workflow.png>
+Package pdftex.def Info: res/workflow.png  used on input line 74.
+(pdftex.def)             Requested size: 446.25673pt x 208.77507pt.
+
+Overfull \hbox (28.00305pt too wide) in paragraph at lines 74--75
+ [] 
  []
 
-
-Underfull \hbox (badness 1436) in paragraph at lines 70--71
-\OT1/cmr/m/it/10 <https://en.wikipedia.org/wiki/United[]States[]free[]speech[]e
-xceptions> [Ac-cessed 10 Jan-uary
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
+8.
+(/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+Overfull \hbox (6.81622pt too wide) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/12 Process Ini-tial-iza-tion : Read files, and trans-form the ty
+pe of the class into string(was
  []
 
-[3] (./main.aux) ) 
+<res/plot1.1.png, id=12, 1006.76125pt x 691.58376pt>
+File: res/plot1.1.png Graphic file (type png)
+<use res/plot1.1.png>
+Package pdftex.def Info: res/plot1.1.png  used on input line 88.
+(pdftex.def)             Requested size: 362.43378pt x 248.96996pt.
+[2 <./res/workflow.png>]
+<res/plot1.2.png, id=18, 1006.76125pt x 691.58376pt>
+File: res/plot1.2.png Graphic file (type png)
+<use res/plot1.2.png>
+Package pdftex.def Info: res/plot1.2.png  used on input line 92.
+(pdftex.def)             Requested size: 362.43378pt x 248.96996pt.
+
+Overfull \hbox (3.69814pt too wide) in paragraph at lines 95--96
+\OT1/ptm/m/n/12 The main point of in-ter-est in the fig-ures above, is the fact
+ that, the clus-ter-ing algorithm(K-
+ []
+
+[3 <./res/plot1.1.png> <./res/plot1.2.png>]
+<res/plot3a.png, id=24, 900.36375pt x 466.74374pt>
+File: res/plot3a.png Graphic file (type png)
+<use res/plot3a.png>
+Package pdftex.def Info: res/plot3a.png  used on input line 102.
+(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
+<res/plot3b.png, id=25, 900.36375pt x 466.74374pt>
+File: res/plot3b.png Graphic file (type png)
+<use res/plot3b.png>
+Package pdftex.def Info: res/plot3b.png  used on input line 108.
+(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
+<res/plot3c.png, id=26, 900.36375pt x 466.74374pt>
+File: res/plot3c.png Graphic file (type png)
+<use res/plot3c.png>
+Package pdftex.def Info: res/plot3c.png  used on input line 114.
+(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
+<res/plot3adist.png, id=27, 748.7975pt x 454.69875pt>
+File: res/plot3adist.png Graphic file (type png)
+<use res/plot3adist.png>
+Package pdftex.def Info: res/plot3adist.png  used on input line 125.
+(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
+<res/plot3bdist.png, id=28, 748.7975pt x 454.69875pt>
+File: res/plot3bdist.png Graphic file (type png)
+<use res/plot3bdist.png>
+Package pdftex.def Info: res/plot3bdist.png  used on input line 131.
+(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
+<res/plot3cdist.png, id=29, 748.7975pt x 454.69875pt>
+File: res/plot3cdist.png Graphic file (type png)
+<use res/plot3cdist.png>
+Package pdftex.def Info: res/plot3cdist.png  used on input line 137.
+(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
+ [4 <./res/plot3a.png> <./res/plot3b.png> <./res/plot3c.png>] [5 <./res/plot3ad
+ist.png> <./res/plot3bdist.png> <./res/plot3cdist.png>] [6] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 27995 strings out of 478994
- 698006 string characters out of 5858184
- 1178901 words of memory out of 5000000
- 44991 multiletter control sequences out of 15000+600000
- 408090 words of font info for 43 fonts, out of 8000000 for 9000
+ 29573 strings out of 478994
+ 727752 string characters out of 5858184
+ 1207478 words of memory out of 5000000
+ 46517 multiletter control sequences out of 15000+600000
+ 429911 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,6n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmbx12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb>
-Output written on main.pdf (3 pages, 58095 bytes).
+ 102i,9n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-di
+st/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 983693 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 26 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
