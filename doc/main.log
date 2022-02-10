@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  7 FEB 2022 22:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  10 FEB 2022 01:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,18 +1071,9 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-<res/workflow.png, id=10, 1716.4125pt x 803.0pt>
-File: res/workflow.png Graphic file (type png)
-<use res/workflow.png>
-Package pdftex.def Info: res/workflow.png  used on input line 74.
-(pdftex.def)             Requested size: 446.25673pt x 208.77507pt.
-
-Overfull \hbox (28.00305pt too wide) in paragraph at lines 74--75
- [] 
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 7
 8.
+
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
@@ -1091,82 +1082,42 @@ Overfull \hbox (6.81622pt too wide) in paragraph at lines 78--79
 pe of the class into string(was
  []
 
-<res/plot1.1.png, id=12, 1006.76125pt x 691.58376pt>
-File: res/plot1.1.png Graphic file (type png)
-<use res/plot1.1.png>
-Package pdftex.def Info: res/plot1.1.png  used on input line 88.
-(pdftex.def)             Requested size: 362.43378pt x 248.96996pt.
-[2 <./res/workflow.png>]
-<res/plot1.2.png, id=18, 1006.76125pt x 691.58376pt>
-File: res/plot1.2.png Graphic file (type png)
-<use res/plot1.2.png>
-Package pdftex.def Info: res/plot1.2.png  used on input line 92.
-(pdftex.def)             Requested size: 362.43378pt x 248.96996pt.
 
 Overfull \hbox (3.69814pt too wide) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 The main point of in-ter-est in the fig-ures above, is the fact
  that, the clus-ter-ing algorithm(K-
  []
 
-[3 <./res/plot1.1.png> <./res/plot1.2.png>]
-<res/plot3a.png, id=24, 900.36375pt x 466.74374pt>
-File: res/plot3a.png Graphic file (type png)
-<use res/plot3a.png>
-Package pdftex.def Info: res/plot3a.png  used on input line 102.
-(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 105.
-<res/plot3b.png, id=25, 900.36375pt x 466.74374pt>
-File: res/plot3b.png Graphic file (type png)
-<use res/plot3b.png>
-Package pdftex.def Info: res/plot3b.png  used on input line 108.
-(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
-<res/plot3c.png, id=26, 900.36375pt x 466.74374pt>
-File: res/plot3c.png Graphic file (type png)
-<use res/plot3c.png>
-Package pdftex.def Info: res/plot3c.png  used on input line 114.
-(pdftex.def)             Requested size: 167.2989pt x 86.7237pt.
-<res/plot3adist.png, id=27, 748.7975pt x 454.69875pt>
-File: res/plot3adist.png Graphic file (type png)
-<use res/plot3adist.png>
-Package pdftex.def Info: res/plot3adist.png  used on input line 125.
-(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
-<res/plot3bdist.png, id=28, 748.7975pt x 454.69875pt>
-File: res/plot3bdist.png Graphic file (type png)
-<use res/plot3bdist.png>
-Package pdftex.def Info: res/plot3bdist.png  used on input line 131.
-(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
-<res/plot3cdist.png, id=29, 748.7975pt x 454.69875pt>
-File: res/plot3cdist.png Graphic file (type png)
-<use res/plot3cdist.png>
-Package pdftex.def Info: res/plot3cdist.png  used on input line 137.
-(pdftex.def)             Requested size: 167.2989pt x 101.58817pt.
- [4 <./res/plot3a.png> <./res/plot3b.png> <./res/plot3c.png>] [5 <./res/plot3ad
-ist.png> <./res/plot3bdist.png> <./res/plot3cdist.png>] [6] (./main.aux)
+[2] [3] [4] [5] [6] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 29573 strings out of 478994
- 727752 string characters out of 5858184
- 1207478 words of memory out of 5000000
- 46517 multiletter control sequences out of 15000+600000
- 429911 words of font info for 77 fonts, out of 8000000 for 9000
+ 29511 strings out of 478994
+ 726558 string characters out of 5858184
+ 1211477 words of memory out of 5000000
+ 46453 multiletter control sequences out of 15000+600000
+ 438255 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,9n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 102i,10n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/202
-1/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-di
-st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (6 pages, 983693 bytes).
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/te
+xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on main.pdf (6 pages, 66455 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

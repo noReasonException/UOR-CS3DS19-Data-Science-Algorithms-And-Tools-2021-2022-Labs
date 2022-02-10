@@ -71,7 +71,7 @@
 		
 		In this Section, the  main parts of the workflow will be explained.
 		\begin{center}
-			\includegraphics[scale=0.26]{res/workflow}
+%			\includegraphics[scale=0.26]{res/workflow}
 		\end{center}
 		The workflow is splitted into 7 Stages. Those are
 		\begin{itemize}
@@ -85,11 +85,11 @@
 	
 	\section*{Task 1.1 : plot1}
 	
-	 	\includegraphics[scale=0.36]{res/plot1.1}
+%	 	\includegraphics[scale=0.36]{res/plot1.1}
 	 
 	 \section*{Task 1.2 : plot2}
 	 
-	 	\includegraphics[scale=0.36]{res/plot1.2}
+	% 	\includegraphics[scale=0.36]{res/plot1.2}
 	 
 	 \section*{Task 1.3 : compare, discuss and explain the differences between plot1 and plot2}
 		The main point of interest in the figures above, is the fact that, the clustering algorithm(K-Means, k=3) failed to appropriately partition the data, and recognise the classes provided by the dataset. We can see that there are multiple errors(Detailed analysis per-class on Task 1.4). This phenomenon can be explained due to the absence of the standardization process, something that will be explained in the next Task. The exact scale of the problem cannot be appropriately assessed with only those two plots though, we will need to examine the distribution of the classes in each cluster, something that will be done on the next task(Task 1.4)
@@ -99,19 +99,19 @@
 		 \begin{figure}[H]
 		 	\centering
 		 	\begin{subfigure}{0.4\textwidth}
-		 		\includegraphics[width=\textwidth]{res/plot3a}
+	%	 		\includegraphics[width=\textwidth]{res/plot3a}
 		 		\caption{plot3a}
 		 		\label{fig:first}
 		 	\end{subfigure}
 		 	\hfill
 		 	\begin{subfigure}{0.4\textwidth}
-		 		\includegraphics[width=\textwidth]{res/plot3b}
+%		 		\includegraphics[width=\textwidth]{res/plot3b}
 		 		\caption{plot3b}
 		 		\label{fig:second}
 		 	\end{subfigure}
 		 	\hfill
 		 	\begin{subfigure}{0.4\textwidth}
-		 		\includegraphics[width=\textwidth]{res/plot3c}
+%		 		\includegraphics[width=\textwidth]{res/plot3c}
 		 		\caption{plot3c}
 		 		\label{fig:third}
 		 	\end{subfigure}
@@ -122,19 +122,19 @@
 		\begin{figure}[H]
 			\centering
 			\begin{subfigure}{0.4\textwidth}
-				\includegraphics[width=\textwidth]{res/plot3adist}
+%				\includegraphics[width=\textwidth]{res/plot3adist}
 				\caption{plot3a distribution}
 				\label{fig:first}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}{0.4\textwidth}
-				\includegraphics[width=\textwidth]{res/plot3bdist}
+%				\includegraphics[width=\textwidth]{res/plot3bdist}
 				\caption{plot3b distribution}
 				\label{fig:second}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}{0.4\textwidth}
-				\includegraphics[width=\textwidth]{res/plot3cdist}
+%				\includegraphics[width=\textwidth]{res/plot3cdist}
 				\caption{plot3c distribution}
 				\label{fig:third}
 			\end{subfigure}
@@ -142,6 +142,44 @@
 			\label{fig:figures}
 		\end{figure}
 		 This is the result of the lack of a normalization/standarization process, something that we will explain on the next task.
+		 
+		 \section*{Task 1.5 : Cluster Validity Measure}
+		 	For our cluster validity measure, we will explain and intepret WSS (Within cluster sum of squares) and BSS (Between cluster sum of squares)
+			\subsection*{Prerequisite 1 : Sum of Square Estimate of Errors(SSE)}
+				Before our attempt of explaining WSS and BSS, it is essential to explain SSE (Sum of Square estimate of Errors). SSE is an evaluation metric with a plethora of applications in statistics and predictive analytics. It is used to evaluate a model's performance against a training set. The logic behind
+				SSE is rather simple in nature. Let X an random variable and a model $y=\bar{X}$
+				\begin{center}
+%					\includegraphics[scale=0.5]{res/SSE-1}
+				\end{center}
+				We can evaluate our model's performance, by calculating the Sum of Errors, where 'error' in this case, is the distance of the observed variable from the responce of our model (i.e the mean $\bar{X}$), as follows
+				\begin{align}
+					SE = \sum_{i=1}^{n}{X_i-\bar{X}}
+				\end{align}
+				Unfortunately, our evaluation metric has a fatal flaw, it allows for error's to 'cancel out' simply because they are placed beneath our model's line. It can be proven that, for the case of $y=\bar{X}$ SE is always 0.
+				\begin{align}
+					SE = \sum_{i=1}^{n}{X_i-\bar{X}} \\
+					SE = \sum_{i=1}^{n}{X_i} - \sum_{i=1}{n}{\bar{X}} \\
+					SE = \sum_{i=1}^{n}{X_i} - n\bar{X} \\
+					SE = \sum_{i=1}^{n}{X_i} - \sum_{i=1}^{n}{X_i} \\
+					SE = 0 \\
+				\end{align}
+				For other models(in higher dimensions, where corellation of the involved variables is not 1), it may not be zero, but the fatal flaw remains, by cancelling errors we severely underestimate the errors involved. A more appropriate approach could be to square the distances, that would give us the Sum of Squared Errors (SSE)
+				\begin{align}
+					SE = \sum_{i=1}^{n}{(X_i-\bar{X})}^2
+				\end{align}
+		 	\subsection*{WSS and BSS}
+		 		In the world of Clustering models performance evaluation, SSE is translated into two distinct but related ideas, WSS and BSS
+			%	\includegraphics[scale=0.5]{res/WSS-BSS-TSS}
+		 		\subsubsection{WSS}
+		 			WSS or  Within Cluster Sum of Squares is a clustering model performance evaluation function. Our 'model' in this case is the cluster centroid and the error 
+		 		
+		 		In context of Clustering, SSE WSS or Within Cluster Sum of Squares is , our 'model' is the estimated cluster center, and the 'errors' are calculated based on the distance of every datapoint of the cluster, to the estimated cluster center. A good clustering always aims for low WSS. The SSE variant of WSS is calculated as follows
+		 		\begin{align}
+sf=12					
+		 		\end{align}
+			\subsection*{BSS}
+				whohoo
+		
 	
 	
 	%which leaves the algorithm vulnerable to distortion due to the different scales, measurement units and sizes of the variables in question. The following figure is part of the output of a simple 'Statistics' Node
@@ -161,8 +199,8 @@
 	
 	\pagebreak
 	\begin{thebibliography}{1}	
-		\bibitem{free-speech-us}
-		\textit{En.wikipedia.org. 2021. United States Free Speech Exceptions. [online] Available at: <https://en.wikipedia.org/wiki/United\_States\_free\_speech\_exceptions> [Accessed 10 January 2021].}
+		\bibitem{entropy}
+		\textit{Shannon, C., 1948. A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), pp.379-423.}
 		
 	\end{thebibliography}
 \end{document}
