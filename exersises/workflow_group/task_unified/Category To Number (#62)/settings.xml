@@ -10,7 +10,7 @@
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="iteration"/>
+                <entry key="0" type="xstring" value="row-id"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
@@ -33,7 +33,7 @@
                 </config>
             </config>
         </config>
-        <entry key="append_columns" type="xboolean" value="true"/>
+        <entry key="append_columns" type="xboolean" value="false"/>
         <entry key="column_suffix" type="xstring" value="iteration"/>
         <entry key="start_index" type="xint" value="0"/>
         <entry key="increment" type="xint" value="1"/>
@@ -68,7 +68,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -83,6 +83,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="17b3cc00-9e00-4337-aa81-10c27e0808ff"/>
+        <entry key="file_store_id" type="xstring" value="f741bc6d-f87d-4626-a13f-cf84edc9833e"/>
     </config>
 </config>

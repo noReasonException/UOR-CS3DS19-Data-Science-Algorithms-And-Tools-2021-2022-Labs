@@ -9,15 +9,13 @@
         <config key="colFilter_possVals">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="F"/>
+                <entry key="array-size" type="xint" value="0"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="4"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="WSS"/>
                 <entry key="1" type="xstring" value="BSS"/>
-                <entry key="2" type="xstring" value="iteration"/>
-                <entry key="3" type="xstring" value="iterationiteration"/>
+                <entry key="2" type="xstring" value="row-id"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -29,30 +27,29 @@
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
                 </config>
             </config>
         </config>
         <config key="colFilter_minMax">
-            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <entry key="filter-type" type="xstring" value="name_pattern"/>
             <config key="included_names">
                 <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="F"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="4"/>
+                <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="WSS"/>
                 <entry key="1" type="xstring" value="BSS"/>
-                <entry key="2" type="xstring" value="iteration"/>
-                <entry key="3" type="xstring" value="iterationiteration"/>
+                <entry key="2" type="xstring" value="row-id"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
-                <entry key="pattern" type="xstring" value=""/>
+                <entry key="pattern" type="xstring" value="*"/>
                 <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
                 <entry key="excludeMatching" type="xboolean" value="false"/>
@@ -60,10 +57,10 @@
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
                     <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
                 </config>
             </config>
@@ -93,12 +90,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 5"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="efa5ef9d-a417-456a-8e94-18d4b82952fb"/>
+        <entry key="file_store_id" type="xstring" value="86084ef1-3b9a-4cb8-8a94-d6e8efa7a967"/>
     </config>
 </config>

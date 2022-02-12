@@ -10,10 +10,10 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="replaceRowKey" type="xboolean" value="true"/>
+        <entry key="replaceRowKey" type="xboolean" value="false"/>
         <config key="newRowKeyColumnName_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="newRowKeyColumnName" type="xstring" isnull="true" value=""/>
         <config key="removeRowKeyCol_Internals">
@@ -33,7 +33,7 @@
         <entry key="replaceMissingValues" type="xboolean" value="false"/>
         <config key="enableHilite_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="enableHilite" type="xboolean" value="false"/>
         <config key="appendRowKeyCol_Internals">
@@ -45,7 +45,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="newColumnName4RowKeyValues" type="xstring" value="iteration"/>
+        <entry key="newColumnName4RowKeyValues" type="xstring" value="row-id"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -74,6 +74,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="8a362ab1-ab54-4552-b713-83f85dc30ef3"/>
+        <entry key="file_store_id" type="xstring" value="7fad247e-f416-46e6-807e-ec0885be682e"/>
     </config>
 </config>

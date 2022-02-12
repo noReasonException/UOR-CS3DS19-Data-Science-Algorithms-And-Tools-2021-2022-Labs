@@ -55,7 +55,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="fail_if_delete_fails" type="xboolean" value="true"/>
+        <entry key="fail_if_delete_fails" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -82,12 +82,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 1"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 2"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0d61b3c8-b740-48a2-b1f1-4a6fdad254fa"/>
+        <entry key="file_store_id" type="xstring" value="ca03b8af-8ff8-433e-821b-a872d81dda89"/>
     </config>
 </config>
