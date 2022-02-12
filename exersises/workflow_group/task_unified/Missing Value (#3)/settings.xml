@@ -8,10 +8,6 @@
     <config key="model">
         <config key="columnSettings"/>
         <config key="dataTypeSettings">
-            <config key="org.knime.core.data.def.IntCell">
-                <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
-                <config key="settings"/>
-            </config>
             <config key="org.knime.core.data.def.StringCell">
                 <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
                 <config key="settings"/>
@@ -62,6 +58,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="77d72842-71f0-4048-b9cc-f45d85058401"/>
+        <entry key="file_store_id" type="xstring" value="ff12e28b-5256-4f15-a303-0cfcd6f367d0"/>
     </config>
 </config>

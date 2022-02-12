@@ -13,10 +13,24 @@
         <config key="group_cols">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="13"/>
+                <entry key="0" type="xstring" value="Alcohol"/>
+                <entry key="1" type="xstring" value="Malic acid"/>
+                <entry key="2" type="xstring" value="Ash"/>
+                <entry key="3" type="xstring" value="Alcalinity of ash"/>
+                <entry key="4" type="xstring" value="Magnesium"/>
+                <entry key="5" type="xstring" value="Total phenols"/>
+                <entry key="6" type="xstring" value="Flavanoids"/>
+                <entry key="7" type="xstring" value="Nonflavanoid phenols"/>
+                <entry key="8" type="xstring" value="Proanthocyanins"/>
+                <entry key="9" type="xstring" value="Color intensity"/>
+                <entry key="10" type="xstring" value="Hue"/>
+                <entry key="11" type="xstring" value="OD280/OD315 of diluted wines"/>
+                <entry key="12" type="xstring" value="Proline"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="class"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -26,7 +40,14 @@
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
-                <config key="typelist"/>
+                <config key="typelist">
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
             </config>
         </config>
         <config key="retain_order_Internals">
@@ -36,12 +57,12 @@
         <entry key="retain_order" type="xboolean" value="true"/>
         <config key="add_row_duplicate_flag_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="add_row_duplicate_flag" type="xboolean" value="true"/>
         <config key="add_row_id_flag_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="add_row_id_flag" type="xboolean" value="false"/>
         <config key="in_memory_Internals">
@@ -57,7 +78,7 @@
         <entry key="row_selection" type="xstring" value="FIRST"/>
         <config key="reference_col_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
         <entry key="reference_col" type="xstring" isnull="true" value=""/>
     </config>
@@ -88,6 +109,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c1c0cb86-5ac9-4ad4-8bca-1f71c627b8d6"/>
+        <entry key="file_store_id" type="xstring" value="4e24035f-ff08-4737-9382-8a6c965b74a2"/>
     </config>
 </config>

@@ -6,6 +6,21 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <config key="use_fixed_number_dimensions_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="use_fixed_number_dimensions" type="xboolean" value="true"/>
+        <config key="number_of_dimensions_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="number_of_dimensions" type="xint" value="2"/>
+        <config key="information_preservation_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="information_preservation" type="xdouble" value="100.0"/>
         <config key="used_columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -41,35 +56,19 @@
             <config key="datatype">
                 <config key="typelist">
                     <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
                 </config>
             </config>
         </config>
-        <config key="fail_on_missings_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="fail_on_missings" type="xboolean" value="false"/>
         <config key="remove_used_columns_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="remove_used_columns" type="xboolean" value="false"/>
-        <config key="number_of_dimensions_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="number_of_dimensions" type="xint" value="2"/>
-        <config key="information_preservation_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_double"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="information_preservation" type="xdouble" value="100.0"/>
-        <config key="use_fixed_number_dimensions_Internals">
+        <config key="fail_on_missings_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="use_fixed_number_dimensions" type="xboolean" value="true"/>
+        <entry key="fail_on_missings" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -98,6 +97,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f3ed00a7-f3f0-4fa6-8cde-97c9afa1e9d4"/>
+        <entry key="file_store_id" type="xstring" value="0ed92a1d-5b01-4ec3-8321-85bb09a31cb9"/>
     </config>
 </config>
