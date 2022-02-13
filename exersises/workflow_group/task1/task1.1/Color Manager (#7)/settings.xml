@@ -6,9 +6,9 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <entry key="palette_option" type="xstring" value="set_1"/>
         <entry key="selected_column" type="xstring" value="class"/>
         <entry key="is_nominal" type="xboolean" value="true"/>
-        <entry key="palette_option" type="xstring" value="set_1"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Node 7"/>
@@ -60,6 +60,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bedd7a37-881e-4ef9-825f-68f71cd6e657"/>
+        <entry key="file_store_id" type="xstring" value="e048e95f-1675-4175-9f74-4ca74b040b0e"/>
     </config>
 </config>

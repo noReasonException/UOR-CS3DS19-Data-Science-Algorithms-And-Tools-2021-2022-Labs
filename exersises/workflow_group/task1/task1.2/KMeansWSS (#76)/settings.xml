@@ -22,26 +22,25 @@
         </config>
         <config key="cfgColmns">
             <config key="InclList">
-                <entry key="array-size" type="xint" value="16"/>
-                <entry key="0" type="xstring" value="PCA dimension 0"/>
-                <entry key="1" type="xstring" value="PCA dimension 1"/>
-                <entry key="2" type="xstring" value="class"/>
-                <entry key="3" type="xstring" value="Alcohol"/>
-                <entry key="4" type="xstring" value="Malic acid"/>
-                <entry key="5" type="xstring" value="Ash"/>
-                <entry key="6" type="xstring" value="Alcalinity of ash"/>
-                <entry key="7" type="xstring" value="Magnesium"/>
-                <entry key="8" type="xstring" value="Total phenols"/>
-                <entry key="9" type="xstring" value="Flavanoids"/>
-                <entry key="10" type="xstring" value="Nonflavanoid phenols"/>
-                <entry key="11" type="xstring" value="Proanthocyanins"/>
-                <entry key="12" type="xstring" value="Color intensity"/>
-                <entry key="13" type="xstring" value="Hue"/>
-                <entry key="14" type="xstring" value="OD280/OD315 of diluted wines"/>
-                <entry key="15" type="xstring" value="Proline"/>
+                <entry key="array-size" type="xint" value="13"/>
+                <entry key="0" type="xstring" value="Alcohol"/>
+                <entry key="1" type="xstring" value="Malic acid"/>
+                <entry key="2" type="xstring" value="Ash"/>
+                <entry key="3" type="xstring" value="Alcalinity of ash"/>
+                <entry key="4" type="xstring" value="Magnesium"/>
+                <entry key="5" type="xstring" value="Total phenols"/>
+                <entry key="6" type="xstring" value="Flavanoids"/>
+                <entry key="7" type="xstring" value="Nonflavanoid phenols"/>
+                <entry key="8" type="xstring" value="Proanthocyanins"/>
+                <entry key="9" type="xstring" value="Color intensity"/>
+                <entry key="10" type="xstring" value="Hue"/>
+                <entry key="11" type="xstring" value="OD280/OD315 of diluted wines"/>
+                <entry key="12" type="xstring" value="Proline"/>
             </config>
             <config key="ExclList">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="PCA dimension 0"/>
+                <entry key="1" type="xstring" value="PCA dimension 1"/>
             </config>
             <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
         </config>
@@ -94,6 +93,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9c95e00b-8fdf-4424-b33d-175fdcdf4060"/>
+        <entry key="file_store_id" type="xstring" value="295cdfb3-d45f-4d46-b859-2cf53b62da15"/>
     </config>
 </config>

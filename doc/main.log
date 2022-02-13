@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  12 FEB 2022 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  13 FEB 2022 18:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,65 +930,7 @@ LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 7
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (./main.aux
-
-LaTeX Warning: Label `fig:first' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:first' multiply defined.
-
-
-LaTeX Warning: Label `fig:second' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:second' multiply defined.
-
-
-LaTeX Warning: Label `fig:third' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:third' multiply defined.
-
-
-LaTeX Warning: Label `fig:figures' multiply defined.
-
-
-LaTeX Warning: Label `fig:first' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:first' multiply defined.
-
-
-LaTeX Warning: Label `fig:second' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:second' multiply defined.
-
-
-LaTeX Warning: Label `fig:figures' multiply defined.
-
-
-LaTeX Warning: Label `fig:first' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:first' multiply defined.
-
-
-LaTeX Warning: Label `fig:second' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:second' multiply defined.
-
-
-LaTeX Warning: Label `fig:third' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:third' multiply defined.
-
-
-LaTeX Warning: Label `fig:figures' multiply defined.
-
-)
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
@@ -1005,7 +947,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
- (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+
+(/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count327
 \scratchdimen=\dimen300
@@ -1100,58 +1043,55 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
  [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 8
-6.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
+27.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+) [2]
 
-LaTeX Warning: Citation `???' on page 2 undefined on input line 160.
+LaTeX Warning: Citation `???' on page 3 undefined on input line 272.
 
 
-LaTeX Warning: Citation `???' on page 2 undefined on input line 160.
+LaTeX Warning: Citation `???' on page 3 undefined on input line 272.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 160.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 272.
 
-Underfull \hbox (badness 10000) in paragraph at lines 160--188
+Underfull \hbox (badness 10000) in paragraph at lines 272--300
 
  []
 
-[2]
 
-LaTeX Warning: Citation `???' on page 3 undefined on input line 189.
-
-
-LaTeX Warning: Citation `???' on page 3 undefined on input line 209.
+LaTeX Warning: Citation `???' on page 3 undefined on input line 301.
 
 
-LaTeX Warning: Citation `???' on page 3 undefined on input line 217.
+LaTeX Warning: Citation `???' on page 3 undefined on input line 321.
+
+[3]
+
+LaTeX Warning: Citation `???' on page 4 undefined on input line 329.
 
 
-LaTeX Warning: Citation `???' on page 3 undefined on input line 225.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 337.
 
 
-LaTeX Warning: Citation `???' on page 3 undefined on input line 250.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 362.
 
-[3] [4] [5] (./main.aux)
+[4] [5] [6] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 30050 strings out of 478994
- 731406 string characters out of 5858184
- 1220990 words of memory out of 5000000
- 46999 multiletter control sequences out of 15000+600000
+ 30043 strings out of 478994
+ 731313 string characters out of 5858184
+ 1220859 words of memory out of 5000000
+ 46992 multiletter control sequences out of 15000+600000
  433464 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,6n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1160,10 +1100,10 @@ exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
 live/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/
 texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (5 pages, 57342 bytes).
+Output written on main.pdf (6 pages, 61305 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
