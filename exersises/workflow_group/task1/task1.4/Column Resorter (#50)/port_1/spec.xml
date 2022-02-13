@@ -84,34 +84,6 @@
             </config>
         </config>
         <config key="column_properties"/>
-        <config key="color_handler">
-            <entry key="color_model_class" type="xstring" value="org.knime.core.data.property.ColorModelNominal"/>
-            <config key="color_model">
-                <config key="keys">
-                    <config key="1">
-                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                        <config key="org.knime.core.data.def.StringCell">
-                            <entry key="StringCell" type="xstring" value="1"/>
-                        </config>
-                    </config>
-                    <config key="2">
-                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                        <config key="org.knime.core.data.def.StringCell">
-                            <entry key="StringCell" type="xstring" value="2"/>
-                        </config>
-                    </config>
-                    <config key="3">
-                        <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-                        <config key="org.knime.core.data.def.StringCell">
-                            <entry key="StringCell" type="xstring" value="3"/>
-                        </config>
-                    </config>
-                </config>
-                <entry key="1" type="xint" value="-13393876"/>
-                <entry key="2" type="xint" value="-1893860"/>
-                <entry key="3" type="xint" value="-5154520"/>
-            </config>
-        </config>
         <config key="meta_data"/>
     </config>
     <config key="column_spec_3">

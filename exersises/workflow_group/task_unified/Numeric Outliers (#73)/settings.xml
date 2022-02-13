@@ -6,11 +6,6 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <config key="estimation-type_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="estimation-type" type="xstring" value="R_4"/>
         <config key="groups-list_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -45,11 +40,6 @@
                 </config>
             </config>
         </config>
-        <config key="memory-policy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="memory-policy" type="xboolean" value="false"/>
         <config key="outlier-list_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -89,36 +79,46 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="iqr-scalar" type="xdouble" value="1.5"/>
+        <config key="estimation-type_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="estimation-type" type="xstring" value="R_4"/>
+        <config key="memory-policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="memory-policy" type="xboolean" value="false"/>
         <config key="use-groups_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="use-groups" type="xboolean" value="false"/>
-        <config key="replacement-strategy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="replacement-strategy" type="xstring" value="Missing values"/>
         <config key="outlier-treatment_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="outlier-treatment" type="xstring" value="Replace outlier values"/>
+        <entry key="outlier-treatment" type="xstring" value="Remove outlier rows"/>
         <config key="detection-option_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="detection-option" type="xstring" value="All outliers"/>
-        <config key="update-domain_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        <config key="replacement-strategy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="update-domain" type="xboolean" value="false"/>
+        <entry key="replacement-strategy" type="xstring" value="Missing values"/>
         <config key="use-heuristic_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="use-heuristic" type="xstring" value="false"/>
+        <config key="update-domain_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="update-domain" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -141,7 +141,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 4"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 93, Cols: 4"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -163,6 +163,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="b2c1055a-93b5-4f02-95fe-115348a52924"/>
+        <entry key="file_store_id" type="xstring" value="42190e14-a471-4f0a-a8ff-0f135c057b88"/>
     </config>
 </config>

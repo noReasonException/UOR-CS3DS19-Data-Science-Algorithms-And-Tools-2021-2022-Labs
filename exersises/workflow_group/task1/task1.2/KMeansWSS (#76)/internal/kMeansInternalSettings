@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
     <entry key="dimensions" type="xint" value="16"/>
-    <entry key="ignoredColumns" type="xint" value="3"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
     <config key="clusterCoverage">
         <entry key="array-size" type="xint" value="3"/>
         <entry key="0" type="xint" value="49"/>
@@ -9,7 +9,7 @@
         <entry key="2" type="xint" value="27"/>
     </config>
     <config key="kMeansCluster0">
-        <entry key="array-size" type="xint" value="13"/>
+        <entry key="array-size" type="xint" value="15"/>
         <entry key="0" type="xdouble" value="13.369183673469388"/>
         <entry key="1" type="xdouble" value="2.4"/>
         <entry key="2" type="xdouble" value="2.39265306122449"/>
@@ -23,9 +23,11 @@
         <entry key="10" type="xdouble" value="0.9597142857142861"/>
         <entry key="11" type="xdouble" value="2.8479591836734692"/>
         <entry key="12" type="xdouble" value="906.3469387755102"/>
+        <entry key="13" type="xdouble" value="-159.59846763279586"/>
+        <entry key="14" type="xdouble" value="6.476484557003819"/>
     </config>
     <config key="kMeansCluster1">
-        <entry key="array-size" type="xint" value="13"/>
+        <entry key="array-size" type="xint" value="15"/>
         <entry key="0" type="xdouble" value="12.598529411764705"/>
         <entry key="1" type="xdouble" value="2.4534313725490198"/>
         <entry key="2" type="xdouble" value="2.3218627450980382"/>
@@ -39,9 +41,11 @@
         <entry key="10" type="xdouble" value="0.9178431372549017"/>
         <entry key="11" type="xdouble" value="2.3948039215686276"/>
         <entry key="12" type="xdouble" value="521.5588235294117"/>
+        <entry key="13" type="xdouble" value="225.4106863828726"/>
+        <entry key="14" type="xdouble" value="-2.0125571540053144"/>
     </config>
     <config key="kMeansCluster2">
-        <entry key="array-size" type="xint" value="13"/>
+        <entry key="array-size" type="xint" value="15"/>
         <entry key="0" type="xdouble" value="13.850740740740742"/>
         <entry key="1" type="xdouble" value="1.778518518518518"/>
         <entry key="2" type="xdouble" value="2.4877777777777776"/>
@@ -55,6 +59,8 @@
         <entry key="10" type="xdouble" value="1.1029629629629631"/>
         <entry key="11" type="xdouble" value="3.0022222222222235"/>
         <entry key="12" type="xdouble" value="1308.7777777777778"/>
+        <entry key="13" type="xdouble" value="-561.9098184091146"/>
+        <entry key="14" type="xdouble" value="-4.150626429060601"/>
     </config>
     <config key="FeatureNames">
         <entry key="array-size" type="xint" value="16"/>
@@ -71,8 +77,8 @@
         <entry key="10" type="xstring" value="Hue"/>
         <entry key="11" type="xstring" value="OD280/OD315 of diluted wines"/>
         <entry key="12" type="xstring" value="Proline"/>
-        <entry key="13" type="xstring" isnull="true" value=""/>
-        <entry key="14" type="xstring" isnull="true" value=""/>
+        <entry key="13" type="xstring" value="PCA dimension 0"/>
+        <entry key="14" type="xstring" value="PCA dimension 1"/>
         <entry key="15" type="xstring" isnull="true" value=""/>
     </config>
 </config>

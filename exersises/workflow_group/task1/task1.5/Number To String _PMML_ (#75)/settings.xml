@@ -47,6 +47,20 @@
             </config>
         </config>
     </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Convert class to string"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="346"/>
+        <entry key="y-coordinate" type="xint" value="599"/>
+        <entry key="width" type="xint" value="109"/>
+        <entry key="height" type="xint" value="13"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.pmml.numbertostring3.NumberToString3NodeFactory"/>
@@ -83,6 +97,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="5a4c4418-262f-4a9e-9a9d-3ebd54a5643a"/>
+        <entry key="file_store_id" type="xstring" value="3ce9867c-a6c0-4ff4-8855-659c92834727"/>
     </config>
 </config>

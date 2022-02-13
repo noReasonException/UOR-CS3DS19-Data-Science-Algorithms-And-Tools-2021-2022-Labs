@@ -9,13 +9,14 @@
         <config key="colFilter_possVals">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="0"/>
-            </config>
-            <config key="excluded_names">
                 <entry key="array-size" type="xint" value="3"/>
                 <entry key="0" type="xstring" value="WSS"/>
                 <entry key="1" type="xstring" value="BSS"/>
-                <entry key="2" type="xstring" value="row-id"/>
+                <entry key="2" type="xstring" value="F"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="row-id"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -49,7 +50,7 @@
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
-                <entry key="pattern" type="xstring" value="*"/>
+                <entry key="pattern" type="xstring" value="[Α-Ζ]*"/>
                 <entry key="type" type="xstring" value="Wildcard"/>
                 <entry key="caseSensitive" type="xboolean" value="true"/>
                 <entry key="excludeMatching" type="xboolean" value="false"/>
@@ -67,10 +68,10 @@
         </config>
         <entry key="max_poss_values" type="xint" value="-1"/>
         <entry key="possible_values_unselected_retain" type="xboolean" value="true"/>
-        <entry key="min_max_unselected_retain" type="xboolean" value="true"/>
+        <entry key="min_max_unselected_retain" type="xboolean" value="false"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.domain.dialog2.DomainNodeFactory"/>
     <entry key="node-name" type="xstring" value="Domain Calculator"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -83,16 +84,19 @@
     <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Domain Calculator"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 4"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="340ba240-a0c5-42d5-93cd-ad7d2b13422d"/>
     </config>
 </config>

@@ -1164,19 +1164,13 @@ YII=" xlink:actuate="onLoad"/>
            font-family="&apos;.AppleSystemUIFont&apos;"
            stroke="rgb(150,150,150)" stroke-width="2">
             <path fill="none"
-                  d="M497 118 C499 118 503 118 505 118 C515 118 528 108 538 108 C540 108 544 108 546 108"
-                  clip-path="url(#clipPath56)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M177 108 C179 108 183 108 185 108 C201 108 222 118 238 118 C240 118 244 118 246 118"
+                  d="M297 118 C299 118 303 118 305 118 C308 118 315 118 318 118 C320 118 324 118 326 118"
                   clip-path="url(#clipPath56)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M377 108 C379 108 383 108 385 108 C401 108 422 118 438 118 C440 118 444 118 446 118"
                   clip-path="url(#clipPath56)" fill-rule="evenodd"/>
             <path fill="none"
-                  d="M77 118 C79 118 83 118 85 118 C94 118 109 118 118 118 C120 118 124 118 126 118"
-                  clip-path="url(#clipPath56)" fill-rule="evenodd"/>
-            <path fill="none"
-                  d="M797 118 C799 118 803 118 805 118 C826 118 857 118 878 118 C880 118 884 118 886 118"
+                  d="M177 108 C179 108 183 108 185 108 C201 108 222 118 238 118 C240 118 244 118 246 118"
                   clip-path="url(#clipPath56)" fill-rule="evenodd"/>
             <path fill="none"
                   d="M697 108 C699 108 703 108 705 108 C715 108 728 118 738 118 C740 118 744 118 746 118"
@@ -1184,8 +1178,14 @@ YII=" xlink:actuate="onLoad"/>
             <path fill="none"
                   d="M597 108 C599 108 603 108 605 108 C615 108 628 118 638 118 C640 118 644 118 646 118"
                   clip-path="url(#clipPath56)" fill-rule="evenodd"/>
+            <path clip-path="url(#clipPath56)" fill="none" fill-rule="evenodd"
+                  d="M797 118 C799 118 803 118 805 118 C826 118 857 118 878 118 C880 118 884 118 886 118"
+                  stroke="rgb(75,75,75)" stroke-width="3"/>
             <path fill="none"
-                  d="M297 118 C299 118 303 118 305 118 C308 118 315 118 318 118 C320 118 324 118 326 118"
+                  d="M77 118 C79 118 83 118 85 118 C94 118 109 118 118 118 C120 118 124 118 126 118"
+                  clip-path="url(#clipPath56)" fill-rule="evenodd"/>
+            <path fill="none"
+                  d="M497 118 C499 118 503 118 505 118 C515 118 528 108 538 108 C540 108 544 108 546 108"
                   clip-path="url(#clipPath56)" fill-rule="evenodd"/>
         </g>
     </g>
