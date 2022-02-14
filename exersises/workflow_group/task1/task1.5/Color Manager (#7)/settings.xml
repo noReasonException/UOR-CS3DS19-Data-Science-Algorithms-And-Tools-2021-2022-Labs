@@ -60,6 +60,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="7f5fac64-125c-49aa-ae82-b4dc2c65729a"/>
+        <entry key="file_store_id" type="xstring" value="b18fb1b9-440d-42a6-9ccd-2637fcfa6ea6"/>
     </config>
 </config>

@@ -9,13 +9,15 @@
         <config key="column-filter">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="row-id"/>
+                <entry key="array-size" type="xint" value="3"/>
+                <entry key="0" type="xstring" value="WSS"/>
+                <entry key="1" type="xstring" value="BSS"/>
+                <entry key="2" type="xstring" value="Iteration"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="0"/>
             </config>
-            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
                 <entry key="pattern" type="xstring" value=""/>
                 <entry key="type" type="xstring" value="Wildcard"/>
@@ -23,34 +25,14 @@
                 <entry key="excludeMatching" type="xboolean" value="false"/>
             </config>
             <config key="datatype">
-                <config key="typelist">
-                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
-                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
-                </config>
+                <config key="typelist"/>
             </config>
-        </config>
-        <entry key="append_columns" type="xboolean" value="false"/>
-        <entry key="column_suffix" type="xstring" value="iteration"/>
-        <entry key="start_index" type="xint" value="0"/>
-        <entry key="increment" type="xint" value="1"/>
-        <entry key="max_categories" type="xint" value="100000"/>
-        <config key="default_value">
-            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
-            <config key="org.knime.core.data.MissingCell"/>
-        </config>
-        <config key="map_missing_to">
-            <entry key="datacell" type="xstring" value="org.knime.core.data.MissingCell"/>
-            <config key="org.knime.core.data.MissingCell"/>
         </config>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.categorytonumber2.CategoryToNumberNodeFactory2"/>
-    <entry key="node-name" type="xstring" value="Category To Number"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -60,7 +42,7 @@
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
     <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
     <config key="factory_settings"/>
-    <entry key="name" type="xstring" value="Category To Number"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
     <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
@@ -71,18 +53,9 @@
             <entry key="port_object_summary" type="xstring" value="Rows: 100, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
-        <config key="port_2">
-            <entry key="index" type="xint" value="2"/>
-            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObjectSpec"/>
-            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.pmml.PMMLPortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PMML document with version 4.2 and models: "/>
-            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-            <entry key="port_dir_location" type="xstring" value="port_2"/>
-        </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0a4672b1-f5fa-429b-a15c-e4f1160df72b"/>
+        <entry key="file_store_id" type="xstring" value="56a2748b-255f-4374-95f2-1ccfeb7883d7"/>
     </config>
 </config>

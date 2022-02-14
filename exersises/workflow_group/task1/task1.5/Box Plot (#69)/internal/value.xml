@@ -5,7 +5,7 @@
         <entry key="mapClass" type="xstring" value="object"/>
         <entry key="key_0" type="xstring" value="numCol"/>
         <entry key="class_0" type="xstring" value="java.lang.String"/>
-        <entry key="value_0" type="xstring" value="F"/>
+        <entry key="value_0" type="xstring" value="Ratio"/>
         <entry key="key_1" type="xstring" value="subtitle"/>
         <entry key="class_1" type="xstring" value="java.lang.String"/>
         <entry key="value_1" type="xstring" value="n=100, No normalization pre-processing applied"/>

@@ -39,7 +39,7 @@
     <entry key="inView" type="xboolean" value="true"/>
     <config key="tableIds">
         <entry key="array-size" type="xint" value="1"/>
-        <entry key="0" type="xstring" value="675697d5-d2ed-4558-8a93-87ec9903a4ef"/>
+        <entry key="0" type="xstring" value="b9b1d532-6040-434e-bcb9-25fa9111873c"/>
     </config>
     <config key="variables">
         <entry key="numSettings" type="xint" value="1"/>
@@ -69,7 +69,7 @@
         <entry key="class_2" type="xstring" value="[Ljava.lang.String;"/>
         <config key="value_2">
             <entry key="array-size" type="xint" value="1"/>
-            <entry key="0" type="xstring" value="F"/>
+            <entry key="0" type="xstring" value="Ratio"/>
         </config>
         <entry key="key_3" type="xstring" value="boxColor"/>
         <entry key="class_3" type="xstring" value="java.lang.String"/>
@@ -106,7 +106,7 @@
         <entry key="numSettings" type="xint" value="1"/>
         <config key="inObject_0">
             <entry key="className" type="xstring" value="org.knime.dynamic.js.base.boxplot.BoxplotProcessor_v2$BoxPlotResult"/>
-            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;F&quot;:{&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;max&quot;:7.479101188001588E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001582E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;lowerQuartile&quot;:7.47910118800158E-7,&quot;upperQuartile&quot;:7.479101188001584E-7,&quot;upperWhisker&quot;:7.479101188001588E-7}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;F&quot;:{&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;max&quot;:7.479101188001588E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001582E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;lowerQuartile&quot;:7.47910118800158E-7,&quot;upperQuartile&quot;:7.479101188001584E-7,&quot;upperWhisker&quot;:7.479101188001588E-7}}}"/>
+            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;Ratio&quot;:{&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;upperWhisker&quot;:7.479101188001591E-7}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;Ratio&quot;:{&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;upperWhisker&quot;:7.479101188001591E-7}}}"/>
         </config>
     </config>
     <entry key="warnMessage" type="xstring" value=""/>
