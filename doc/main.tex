@@ -266,26 +266,49 @@
 			\begin{figure}[H]
 				\centering
 				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t14/t14-row-filter-1-conf}
-					\caption{Number to Category(PMML)}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-counting-loop-start-conf}
+					\caption{Counting Loop Start: Because of K-Means is an heuristic algorithm, it makes sense to be analysed when averaged in a series of runs, we will run for $n=100$)}
 					\label{fig:first}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t14/t14-row-filter-2-conf}
-					\caption{Color Manager}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-shuffle-conf}
+					\caption{Shuffle: This K-Means implementation, gets initialized by setting the first k elements as centroids. In order to evaluate the behaviour of the algorithm, we need to shuffle our dataset to enforce K-Means to initialized with different centroids \cite{???}}
 					\label{fig:second}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t14/t14-row-filter-3-conf}
-					\caption{Duplicate Row Filter}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-loop-end-conf}
+					\caption{Loop End: The only noteworthy mention here, is the fact that we append a new column, containing the number of iteration}
 					\label{fig:third}
 				\end{subfigure}	
-				\label{fig:figures}
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-row-id-conf}
+					\caption{Row ID: Use the number of iterations as RowID column}
+					\label{fig:first}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-math-formula-conf}
+					\caption{Math Formula: A nice way to visualize the performance of K-Means, is to calculate the ratio of $WSS/BSS$, more on that on the 'interpretation' part}
+					\label{fig:second}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-domain-calculator-conf}
+					\caption{Domain Calculator: As we involve very small numbers, we need to explicitly tell KNIME to keep the ranges (not to round) as much as possible.}
+					\label{fig:third}
+				\end{subfigure}	
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t15/t15-numeric-outliers-conf}
+					\caption{Numeric Outliers: In order to extract meaningfull box plots, we need to eliminate outliers(very bad initializations), This node replaces the extremes with the closest permitted value}
+					\label{fig:first}
+				\end{subfigure}
+					\label{fig:figures}
 			\end{figure}
 			\fi
-			\subsubsection*{Prerequisite 1 : Sum of Square Estimate of Errors(SSE)}
+			
+			\subsubsection*{Prerequisites for explaining WSS ans BSS}
 				Before our attempt of explaining WSS and BSS, it is essential to explain SSE (Sum of Square estimate of Errors). SSE is an evaluation metric with a plethora of applications in statistics and predictive analytics\cite{???}. It is used to evaluate a model's performance against a training set\cite{???}. The logic behind SSE is rather simple in nature. Let X an random variable and a model $y=\bar{X}$
 				\iftrue
 				\begin{center}
@@ -314,7 +337,7 @@
 					SE = \sum_{i=1}^{n}{(X_i-\bar{X})}^2
 				\end{align}
 				\fi
-			\subsubsection*{WSS and BSS}
+			\subsubsection*{WSS and BSS Inner-Workings}
 				In the world of Clustering models performance evaluation, SSE is translated into two distinct but related ideas\cite{???}, WSS and BSS
 				\iftrue
 				\begin{figure}[H]

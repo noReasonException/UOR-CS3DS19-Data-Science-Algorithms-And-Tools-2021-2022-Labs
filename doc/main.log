@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  14 FEB 2022 20:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  14 FEB 2022 21:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,6 +1043,30 @@ LaTeX Warning: Label `fig:third' multiply defined.
 LaTeX Warning: Label `sub@fig:third' multiply defined.
 
 
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
+LaTeX Warning: Label `fig:second' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:second' multiply defined.
+
+
+LaTeX Warning: Label `fig:third' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:third' multiply defined.
+
+
+LaTeX Warning: Label `fig:first' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:first' multiply defined.
+
+
 LaTeX Warning: Label `fig:figures' multiply defined.
 
 
@@ -1337,88 +1361,133 @@ Package pdftex.def Info: res/t1/t14/t14-plotc-dist.png  used on input line 249.
  [5 <./res/t1/t14/t14-row-filter-1-conf.png> <./res/t1/t14/t14-row-filter-2-con
 f.png> <./res/t1/t14/t14-row-filter-3-conf.png> <./res/t1/t14/t14-plota.png> <.
 /res/t1/t14/t14-plotb.png> <./res/t1/t14/t14-plotc.png>]
-<res/t1/t15/t15-workflow.png, id=65, 1487.5575pt x 222.8325pt>
+<res/t1/t15/t15-workflow.png, id=65, 1346.02875pt x 222.8325pt>
 File: res/t1/t15/t15-workflow.png Graphic file (type png)
 <use res/t1/t15/t15-workflow.png>
 Package pdftex.def Info: res/t1/t15/t15-workflow.png  used on input line 261.
-(pdftex.def)             Requested size: 371.88846pt x 55.70798pt.
-File: res/t1/t14/t14-row-filter-1-conf.png Graphic file (type png)
-<use res/t1/t14/t14-row-filter-1-conf.png>
-Package pdftex.def Info: res/t1/t14/t14-row-filter-1-conf.png  used on input li
-ne 269.
-(pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
-File: res/t1/t14/t14-row-filter-2-conf.png Graphic file (type png)
-<use res/t1/t14/t14-row-filter-2-conf.png>
-Package pdftex.def Info: res/t1/t14/t14-row-filter-2-conf.png  used on input li
-ne 275.
-(pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
-File: res/t1/t14/t14-row-filter-3-conf.png Graphic file (type png)
-<use res/t1/t14/t14-row-filter-3-conf.png>
-Package pdftex.def Info: res/t1/t14/t14-row-filter-3-conf.png  used on input li
-ne 281.
-(pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
+(pdftex.def)             Requested size: 336.50636pt x 55.70798pt.
+<res/t1/t15/t15-counting-loop-start-conf.png, id=66, 509.905pt x 277.035pt>
+File: res/t1/t15/t15-counting-loop-start-conf.png Graphic file (type png)
+<use res/t1/t15/t15-counting-loop-start-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-counting-loop-start-conf.png  used on i
+nput line 269.
+(pdftex.def)             Requested size: 193.47577pt x 105.11798pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 270.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 270.
+<res/t1/t15/t15-shuffle-conf.png, id=67, 509.905pt x 277.035pt>
+File: res/t1/t15/t15-shuffle-conf.png Graphic file (type png)
+<use res/t1/t15/t15-shuffle-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-shuffle-conf.png  used on input line 27
+5.
+(pdftex.def)             Requested size: 193.47577pt x 105.11798pt.
 
+
+LaTeX Warning: Citation `???' on page 6 undefined on input line 276.
+
+
+LaTeX Warning: Citation `???' on page 6 undefined on input line 276.
+
+<res/t1/t15/t15-loop-end-conf.png, id=68, 509.905pt x 353.32pt>
+File: res/t1/t15/t15-loop-end-conf.png Graphic file (type png)
+<use res/t1/t15/t15-loop-end-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-loop-end-conf.png  used on input line 2
+81.
+(pdftex.def)             Requested size: 193.47577pt x 134.0635pt.
+<res/t1/t15/t15-row-id-conf.png, id=69, 540.0175pt x 378.41376pt>
+File: res/t1/t15/t15-row-id-conf.png Graphic file (type png)
+<use res/t1/t15/t15-row-id-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-row-id-conf.png  used on input line 286
+.
+(pdftex.def)             Requested size: 193.47577pt x 135.57637pt.
+<res/t1/t15/t15-math-formula-conf.png, id=70, 850.17625pt x 590.205pt>
+File: res/t1/t15/t15-math-formula-conf.png Graphic file (type png)
+<use res/t1/t15/t15-math-formula-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-math-formula-conf.png  used on input li
+ne 292.
+(pdftex.def)             Requested size: 193.47577pt x 134.31236pt.
+<res/t1/t15/t15-domain-calculator-conf.png, id=71, 756.8275pt x 396.48125pt>
+File: res/t1/t15/t15-domain-calculator-conf.png Graphic file (type png)
+<use res/t1/t15/t15-domain-calculator-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-domain-calculator-conf.png  used on inp
+ut line 298.
+(pdftex.def)             Requested size: 193.47577pt x 101.35243pt.
+<res/t1/t15/t15-numeric-outliers-conf.png, id=72, 756.8275pt x 496.85625pt>
+File: res/t1/t15/t15-numeric-outliers-conf.png Graphic file (type png)
+<use res/t1/t15/t15-numeric-outliers-conf.png>
+Package pdftex.def Info: res/t1/t15/t15-numeric-outliers-conf.png  used on inpu
+t line 303.
+(pdftex.def)             Requested size: 193.47577pt x 127.01129pt.
 [6 <./res/t1/t14/t14-plota-dist.png> <./res/t1/t14/t14-plotb-dist.png> <./res/t
 1/t14/t14-plotc-dist.png> <./res/t1/t15/t15-workflow.png>]
+Overfull \vbox (20.18625pt too high) has occurred while \output is active []
 
-LaTeX Warning: Citation `???' on page 7 undefined on input line 289.
+
+[7 <./res/t1/t15/t15-counting-loop-start-conf.png> <./res/t1/t15/t15-shuffle-co
+nf.png> <./res/t1/t15/t15-loop-end-conf.png> <./res/t1/t15/t15-row-id-conf.png>
+ <./res/t1/t15/t15-math-formula-conf.png> <./res/t1/t15/t15-domain-calculator-c
+onf.png> <./res/t1/t15/t15-numeric-outliers-conf.png>]
+
+LaTeX Warning: Citation `???' on page 8 undefined on input line 312.
 
 
-LaTeX Warning: Citation `???' on page 7 undefined on input line 289.
+LaTeX Warning: Citation `???' on page 8 undefined on input line 312.
 
-<res/task-1/SSE-1.png, id=73, 617.30624pt x 350.30875pt>
+<res/task-1/SSE-1.png, id=94, 617.30624pt x 350.30875pt>
 File: res/task-1/SSE-1.png Graphic file (type png)
 <use res/task-1/SSE-1.png>
-Package pdftex.def Info: res/task-1/SSE-1.png  used on input line 292.
+Package pdftex.def Info: res/task-1/SSE-1.png  used on input line 315.
 (pdftex.def)             Requested size: 308.65236pt x 175.15395pt.
-[7 <./res/task-1/SSE-1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--313
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--336
 
  []
 
 
-LaTeX Warning: Citation `???' on page 8 undefined on input line 318.
+LaTeX Warning: Citation `???' on page 8 undefined on input line 341.
 
-<res/task-1/WSS.png, id=83, 1008.76875pt x 472.76625pt>
+<res/task-1/WSS.png, id=95, 1008.76875pt x 472.76625pt>
 File: res/task-1/WSS.png Graphic file (type png)
 <use res/task-1/WSS.png>
-Package pdftex.def Info: res/task-1/WSS.png  used on input line 323.
+Package pdftex.def Info: res/task-1/WSS.png  used on input line 346.
 (pdftex.def)             Requested size: 193.47577pt x 90.67053pt.
-<res/task-1/BSS.png, id=84, 1008.76875pt x 472.76625pt>
+<res/task-1/BSS.png, id=96, 1008.76875pt x 472.76625pt>
 File: res/task-1/BSS.png Graphic file (type png)
 <use res/task-1/BSS.png>
-Package pdftex.def Info: res/task-1/BSS.png  used on input line 329.
+Package pdftex.def Info: res/task-1/BSS.png  used on input line 352.
 (pdftex.def)             Requested size: 193.47577pt x 90.67053pt.
+[8 <./res/task-1/SSE-1.png>]
 
-LaTeX Warning: Citation `???' on page 8 undefined on input line 338.
+LaTeX Warning: Citation `???' on page 9 undefined on input line 361.
 
 
-LaTeX Warning: Citation `???' on page 8 undefined on input line 346.
+LaTeX Warning: Citation `???' on page 9 undefined on input line 369.
 
-[8 <./res/task-1/WSS.png> <./res/task-1/BSS.png>]
 
-LaTeX Warning: Citation `???' on page 9 undefined on input line 354.
+LaTeX Warning: Citation `???' on page 9 undefined on input line 377.
 
-<res/task-1/WSS-Knime.png, id=90, 1014.79124pt x 736.7525pt>
+<res/task-1/WSS-Knime.png, id=103, 1014.79124pt x 736.7525pt>
 File: res/task-1/WSS-Knime.png Graphic file (type png)
 <use res/task-1/WSS-Knime.png>
-Package pdftex.def Info: res/task-1/WSS-Knime.png  used on input line 360.
+Package pdftex.def Info: res/task-1/WSS-Knime.png  used on input line 383.
 (pdftex.def)             Requested size: 193.47577pt x 140.45659pt.
-<res/task-1/BSS-Knime.png, id=91, 1014.79124pt x 736.7525pt>
+<res/task-1/BSS-Knime.png, id=104, 1014.79124pt x 736.7525pt>
 File: res/task-1/BSS-Knime.png Graphic file (type png)
 <use res/task-1/BSS-Knime.png>
-Package pdftex.def Info: res/task-1/BSS-Knime.png  used on input line 366.
+Package pdftex.def Info: res/task-1/BSS-Knime.png  used on input line 389.
 (pdftex.def)             Requested size: 193.47577pt x 140.45659pt.
-<res/task-1/WSS-BSS-Ratio.png, id=92, 1014.79124pt x 736.7525pt>
+<res/task-1/WSS-BSS-Ratio.png, id=105, 1014.79124pt x 736.7525pt>
 File: res/task-1/WSS-BSS-Ratio.png Graphic file (type png)
 <use res/task-1/WSS-BSS-Ratio.png>
-Package pdftex.def Info: res/task-1/WSS-BSS-Ratio.png  used on input line 372.
+Package pdftex.def Info: res/task-1/WSS-BSS-Ratio.png  used on input line 395.
 (pdftex.def)             Requested size: 193.47577pt x 140.45659pt.
+[9 <./res/task-1/WSS.png> <./res/task-1/BSS.png>]
 
-LaTeX Warning: Citation `???' on page 9 undefined on input line 379.
+LaTeX Warning: Citation `???' on page 10 undefined on input line 402.
 
-[9 <./res/task-1/WSS-Knime.png> <./res/task-1/BSS-Knime.png> <./res/task-1/WSS-
-BSS-Ratio.png>] [10] [11] (./main.aux)
+[10 <./res/task-1/WSS-Knime.png> <./res/task-1/BSS-Knime.png> <./res/task-1/WSS
+-BSS-Ratio.png>] [11] [12] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1427,24 +1496,25 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30296 strings out of 478994
- 738352 string characters out of 5858184
- 1223992 words of memory out of 5000000
- 47195 multiletter control sequences out of 15000+600000
- 439929 words of font info for 97 fonts, out of 8000000 for 9000
+ 30370 strings out of 478994
+ 740651 string characters out of 5858184
+ 1222999 words of memory out of 5000000
+ 47258 multiletter control sequences out of 15000+600000
+ 448291 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/te
-xmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/f
-onts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1
-/urw/times/utmri8a.pfb>
-Output written on main.pdf (11 pages, 2294299 bytes).
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/tex
+mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fo
+nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on main.pdf (12 pages, 2735265 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 148 PDF objects out of 1000 (max. 8388607)
+ 54 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 158 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 193 words of extra memory for PDF output out of 10000 (max. 10000000)
 
