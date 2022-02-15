@@ -22,6 +22,7 @@
 \newcommand{\comment}[1]{%
 	\text{\phantom{(#1)}} \tag{#1}
 }
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
 \usepackage{physics}
 \usepackage{subcaption}
 \usepackage{graphicx}
@@ -160,13 +161,58 @@
 				\includegraphics[scale=0.5]{res/t1/t12/t12-plot2}
 			\end{center}
 			\fi
-			\subsubsection{K-Means clustering algorithm}
-				The standard Lorem Ipsum passage, used since the 1500s
+			\subsubsection{Introduction to K-Means clustering algorithm}
+				K-Means is a heuristic method for grouping {similar} items in a form of clusters. $K$ is number of clusters and is pre-determined. By heuristic we mean that the algorithm does not produce absolute optimal solutions, but approximations with an given accuracy. By similarity ,on purely numeric data, we usually mean a geometric distance metric. 3 of the most widely accepted geometric metrics for determining similarity are Euclidean, Manhattan and Minkowski distances.
+			\subsubsection{K-Means Algorithm}
+				K-Means is an repetitive heuristic algorithm that repeats 2 distinct steps to converge into an acceptable solution. As an initialization step, K-Means selects $k$ random points and sets them as the estimated cluster centroids. Then repeats the following 2 steps
+				\begin{itemize}[noitemsep,topsep=0pt]
+					\item For every datapoint in set, calculate the distances of the given point from the $k$ estimated cluster centroids
+					\item Assign the datapoint into the closest cluster.
+					\item When the $k$ clusters have been calculated, calculate the cluster's centroids, and set these centroids as the best estimated cluster centroids
+					\item Repeat untill accuracy is acceptable(Accuracy gets calculated with SSE, SSE is explained on Task 1.5)
+				\end{itemize}
+				Let the following fictional 1D Data, $k=3$
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-1}
+				\end{center}
+				\fi
+				Let initialize $k=3$ initial random estimated cluster centroids
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-2}
+				\end{center}
+				\fi
+				Now, the repetitive process, First , we should calculate the distances of any given point from each of the $k=3$ 
+				estimated cluster centroids, and then assign the given datapoint into the cluster with the closest centroid. Here $X_1$ will be 
+				assigned on the blue cluster($M_1$)
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-3}
+				\end{center}
+				\fi
+				After the calculation is finished for all the datapoints, the clustering should look like the following figure
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-4}
+				\end{center}
+				\fi
+				We now calculate the centroids of the clusters. the centroids do not need to be actual datapoints, they can lie on any point on the plane
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-5}
+				\end{center}
+				\fi
+				Finally, after some iterations, we end up with an acceptable solution
+				\iftrue
+				\begin{center}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-6}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-7}
+					\includegraphics[scale=0.5]{res/t1/t12/t12-kmeans-8}
+				\end{center}
+				\fi
+				We can quantify the quality of a solution, by using Sum of Squared errors statistic(SSE). K-Means terminates when SSE converges into a value. SEE is explained in detail on Task 1.5
 				
-				"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-				Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-				
-				 
 		 \subsection*{Task 1.3 : Compare plot1 and plot2}
 			The main point of interest in the figures above, is the fact that, the clustering algorithm(K-Means, k=3) failed to appropriately partition the data, and recognise the classes provided by the dataset, This phenomenon can be explained due to the absence of the standardization process, something that will be explained in the next Task. The exact scale of the problem cannot be appropriately assessed with only those two plots though, we will need to examine the distribution of the classes in each cluster, something that will be done on the next task(Task 1.4)
 		
@@ -267,7 +313,7 @@
 				\centering
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t15/t15-counting-loop-start-conf}
-					\caption{Counting Loop Start: Because of K-Means is an heuristic algorithm, it makes sense to be analysed when averaged in a series of runs, we will run for $n=100$)}
+					\caption{Counting Loop Start: Because of K-Means is an heuristic algorithm, it makes sense to be analysed in a series of runs, we will run for $n=100$. Thats necessary because of the fact that every heuristic algorithm is vulnerable to be stuck onto a local-minima and produce biased/wrong results \cite{???}.}
 					\label{fig:first}
 				\end{subfigure}
 				\hfill
@@ -301,7 +347,7 @@
 				\end{subfigure}	
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t15/t15-numeric-outliers-conf}
-					\caption{Numeric Outliers: In order to extract meaningfull box plots, we need to eliminate outliers(very bad initializations), This node replaces the extremes with the closest permitted value}
+					\caption{Numeric Outliers: In order to extract insightful box plots, we need to eliminate outliers(very bad initializations)}
 					\label{fig:first}
 				\end{subfigure}
 					\label{fig:figures}
@@ -343,13 +389,13 @@
 				\begin{figure}[H]
 					\centering
 					\begin{subfigure}{0.4\textwidth}
-						\includegraphics[width=\textwidth]{res/task-1/WSS}
+						\includegraphics[width=\textwidth]{res/t1/t15/t15-WSS}
 						\caption{WSS}
 						\label{fig:first}
 					\end{subfigure}
 					\hfill
 					\begin{subfigure}{0.4\textwidth}
-						\includegraphics[width=\textwidth]{res/task-1/BSS}
+						\includegraphics[width=\textwidth]{res/t1/t15/t15-BSS}
 						\caption{BSS}
 						\label{fig:second}
 					\end{subfigure}
@@ -380,19 +426,19 @@
 					
 					\centering
 					\begin{subfigure}{0.4\textwidth}
-						\includegraphics[width=\textwidth]{res/task-1/WSS-Knime}
+						\includegraphics[width=\textwidth]{res/t1/t15/t15-WSS-plot}
 						\caption{WSS}
 						\label{fig:first}
 					\end{subfigure}
 					\hfill
 					\begin{subfigure}{0.4\textwidth}
-						\includegraphics[width=\textwidth]{res/task-1/BSS-Knime}
+						\includegraphics[width=\textwidth]{res/t1/t15/t15-BSS-plot}
 						\caption{BSS}
 						\label{fig:second}
 					\end{subfigure}
 					\hfill
 					\begin{subfigure}{0.4\textwidth}
-						\includegraphics[width=\textwidth]{res/task-1/WSS-BSS-Ratio}
+						\includegraphics[width=\textwidth]{res/t1/t15/t15-Ratio-plot}
 						\caption{Ratio}
 						\label{fig:third}
 					\end{subfigure}

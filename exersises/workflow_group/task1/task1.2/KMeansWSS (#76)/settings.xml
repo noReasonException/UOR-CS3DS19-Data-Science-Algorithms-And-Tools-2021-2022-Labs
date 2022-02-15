@@ -50,6 +50,29 @@
         </config>
         <entry key="enableHilite" type="xboolean" value="false"/>
     </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="K-Means %%00010Clustering%%00010Algorithm"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="728"/>
+        <entry key="y-coordinate" type="xint" value="939"/>
+        <entry key="width" type="xint" value="104"/>
+        <entry key="height" type="xint" value="39"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="11"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles">
+            <config key="style_0">
+                <entry key="start" type="xint" value="0"/>
+                <entry key="length" type="xint" value="29"/>
+                <entry key="fontname" type="xstring" value="Arial"/>
+                <entry key="fontstyle" type="xint" value="0"/>
+                <entry key="fontsize" type="xint" value="11"/>
+                <entry key="fgcolor" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="uk.ac.reading.cs.knime.kmeans.KMeansWSSNodeFactory"/>
@@ -93,6 +116,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="3f9134a6-87c9-4039-b703-edf9f4b9ea6d"/>
+        <entry key="file_store_id" type="xstring" value="4732f623-274c-4dcb-8d29-101daaff8797"/>
     </config>
 </config>

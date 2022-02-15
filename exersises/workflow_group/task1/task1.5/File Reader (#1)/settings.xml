@@ -600,7 +600,7 @@
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="wine.csv"/>
         <entry key="bgcolor" type="xint" value="16777215"/>
-        <entry key="x-coordinate" type="xint" value="268"/>
+        <entry key="x-coordinate" type="xint" value="628"/>
         <entry key="y-coordinate" type="xint" value="599"/>
         <entry key="width" type="xint" value="104"/>
         <entry key="height" type="xint" value="13"/>
@@ -642,6 +642,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="dd50509b-16dc-4ec7-ba02-48741a1837f9"/>
+        <entry key="file_store_id" type="xstring" value="b960793f-500a-42f5-98ea-47a71b20db34"/>
     </config>
 </config>
