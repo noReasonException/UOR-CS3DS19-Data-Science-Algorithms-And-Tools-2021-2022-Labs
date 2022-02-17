@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  16 FEB 2022 00:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  17 FEB 2022 00:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,42 +1069,48 @@ f the 'Statis-tics' node(columns 'max','min','mean','stddev'),
 
 [2] [3]
 
-LaTeX Warning: Citation `???' on page 4 undefined on input line 517.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 509.
 
 
-LaTeX Warning: Citation `???' on page 4 undefined on input line 517.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 509.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 517--545
+Underfull \hbox (badness 10000) in paragraph at lines 509--537
 
  []
 
 
-LaTeX Warning: Citation `???' on page 4 undefined on input line 546.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 538.
 
 
-LaTeX Warning: Citation `???' on page 4 undefined on input line 566.
+LaTeX Warning: Citation `???' on page 4 undefined on input line 558.
 
 [4]
+
+LaTeX Warning: Citation `???' on page 5 undefined on input line 566.
+
 
 LaTeX Warning: Citation `???' on page 5 undefined on input line 574.
 
 
-LaTeX Warning: Citation `???' on page 5 undefined on input line 582.
+LaTeX Warning: Citation `???' on page 5 undefined on input line 599.
 
+[5] [6]
+Underfull \hbox (badness 3375) in paragraph at lines 643--644
+[]\OT1/ptm/m/it/10.95 Shanker M, Hu MY, Hung MS, Ef-fect of Data Stan-dard-iza-
+tion on Neu-ral Net-work Train-ing
+ []
 
-LaTeX Warning: Citation `???' on page 5 undefined on input line 607.
-
-[5] [6] [7] (./main.aux)
+[7] (./main.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 30344 strings out of 478994
- 736364 string characters out of 5858184
- 1229368 words of memory out of 5000000
- 47288 multiletter control sequences out of 15000+600000
+ 30345 strings out of 478994
+ 736379 string characters out of 5858184
+ 1229371 words of memory out of 5000000
+ 47289 multiletter control sequences out of 15000+600000
  436294 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,6n,103p,721b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1116,7 +1122,7 @@ ve/2021/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/tex
 mf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/
 urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 86847 bytes).
+Output written on main.pdf (7 pages, 88202 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

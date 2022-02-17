@@ -6,6 +6,11 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
+        <config key="estimation-type_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="estimation-type" type="xstring" value="R_4"/>
         <config key="groups-list_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
@@ -39,6 +44,11 @@
                 </config>
             </config>
         </config>
+        <config key="memory-policy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="memory-policy" type="xboolean" value="false"/>
         <config key="outlier-list_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_columnfilter"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -77,21 +87,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="iqr-scalar" type="xdouble" value="1.5"/>
-        <config key="estimation-type_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="estimation-type" type="xstring" value="R_4"/>
-        <config key="memory-policy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-            <entry key="EnabledStatus" type="xboolean" value="false"/>
-        </config>
-        <entry key="memory-policy" type="xboolean" value="false"/>
         <config key="use-groups_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="use-groups" type="xboolean" value="false"/>
+        <config key="replacement-strategy_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="replacement-strategy" type="xstring" value="Closest permitted value"/>
         <config key="outlier-treatment_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -102,21 +107,16 @@
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="detection-option" type="xstring" value="All outliers"/>
-        <config key="replacement-strategy_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="replacement-strategy" type="xstring" value="Closest permitted value"/>
-        <config key="use-heuristic_Internals">
-            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-            <entry key="EnabledStatus" type="xboolean" value="true"/>
-        </config>
-        <entry key="use-heuristic" type="xstring" value="false"/>
         <config key="update-domain_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
         <entry key="update-domain" type="xboolean" value="true"/>
+        <config key="use-heuristic_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="use-heuristic" type="xstring" value="false"/>
     </config>
     <config key="nodeAnnotation">
         <entry key="text" type="xstring" value="Discard Bad%%00010Initializations"/>
@@ -124,7 +124,7 @@
         <entry key="x-coordinate" type="xint" value="1428"/>
         <entry key="y-coordinate" type="xint" value="599"/>
         <entry key="width" type="xint" value="104"/>
-        <entry key="height" type="xint" value="26"/>
+        <entry key="height" type="xint" value="24"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
         <entry key="borderColor" type="xint" value="16777215"/>
@@ -175,6 +175,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="522829de-84f2-4997-89f0-1fff191a0df5"/>
+        <entry key="file_store_id" type="xstring" value="c07e36f2-d6b2-40f8-ae04-49631d9d4ebc"/>
     </config>
 </config>

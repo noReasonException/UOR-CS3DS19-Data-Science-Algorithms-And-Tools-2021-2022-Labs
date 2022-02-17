@@ -53,7 +53,7 @@
         <config key="styles"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory"/>
     <entry key="node-name" type="xstring" value="Histogram (local)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -66,11 +66,11 @@
     <entry key="node-feature-version" type="xstring" value="4.5.1.v202201171200"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Histogram (local)"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports"/>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="d2aeed2b-1ecb-4514-849e-d83da92e67da"/>
     </config>
 </config>

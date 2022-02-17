@@ -39,7 +39,7 @@
     <entry key="inView" type="xboolean" value="true"/>
     <config key="tableIds">
         <entry key="array-size" type="xint" value="1"/>
-        <entry key="0" type="xstring" value="9de72fe1-909e-4eef-86c3-5d2c10ad592a"/>
+        <entry key="0" type="xstring" value="be240bbd-09d7-45ac-963f-877b8cbcc40b"/>
     </config>
     <config key="variables">
         <entry key="numSettings" type="xint" value="1"/>
@@ -106,7 +106,7 @@
         <entry key="numSettings" type="xint" value="1"/>
         <config key="inObject_0">
             <entry key="className" type="xstring" value="org.knime.dynamic.js.base.boxplot.BoxplotProcessor_v2$BoxPlotResult"/>
-            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;Ratio&quot;:{&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;upperWhisker&quot;:7.479101188001591E-7,&quot;mildOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;Ratio&quot;:{&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;upperWhisker&quot;:7.479101188001591E-7,&quot;mildOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7}}}"/>
+            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;Ratio&quot;:{&quot;upperQuartile&quot;:9.003988875742888E-7,&quot;upperWhisker&quot;:9.00569109150115E-7,&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:9.002854065237379E-7,&quot;lowerWhisker&quot;:9.002854065237372E-7,&quot;median&quot;:9.002854065237383E-7,&quot;max&quot;:9.00569109150115E-7,&quot;min&quot;:9.002854065237372E-7}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;Ratio&quot;:{&quot;upperQuartile&quot;:9.003988875742888E-7,&quot;upperWhisker&quot;:9.00569109150115E-7,&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:9.002854065237379E-7,&quot;lowerWhisker&quot;:9.002854065237372E-7,&quot;median&quot;:9.002854065237383E-7,&quot;max&quot;:9.00569109150115E-7,&quot;min&quot;:9.002854065237372E-7}}}"/>
         </config>
     </config>
     <entry key="warnMessage" type="xstring" value=""/>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="kMeans">
+    <entry key="dimensions" type="xint" value="14"/>
+    <entry key="ignoredColumns" type="xint" value="1"/>
+    <config key="clusterCoverage">
+        <entry key="array-size" type="xint" value="3"/>
+        <entry key="0" type="xint" value="58"/>
+        <entry key="1" type="xint" value="58"/>
+        <entry key="2" type="xint" value="46"/>
+    </config>
+    <config key="kMeansCluster0">
+        <entry key="array-size" type="xint" value="13"/>
+        <entry key="0" type="xdouble" value="0.25352893728574305"/>
+        <entry key="1" type="xdouble" value="0.24839209608678803"/>
+        <entry key="2" type="xdouble" value="0.4584511023176936"/>
+        <entry key="3" type="xdouble" value="0.5688563945875165"/>
+        <entry key="4" type="xdouble" value="0.32947198275862066"/>
+        <entry key="5" type="xdouble" value="0.43483947681331736"/>
+        <entry key="6" type="xdouble" value="0.4811737585246373"/>
+        <entry key="7" type="xdouble" value="0.43266102797657763"/>
+        <entry key="8" type="xdouble" value="0.45131845841785"/>
+        <entry key="9" type="xdouble" value="0.18417094644167276"/>
+        <entry key="10" type="xdouble" value="0.572300113679424"/>
+        <entry key="11" type="xdouble" value="0.5692812934192246"/>
+        <entry key="12" type="xdouble" value="0.1627477987112008"/>
+    </config>
+    <config key="kMeansCluster1">
+        <entry key="array-size" type="xint" value="13"/>
+        <entry key="0" type="xdouble" value="0.6861766485178463"/>
+        <entry key="1" type="xdouble" value="0.2853932584269662"/>
+        <entry key="2" type="xdouble" value="0.6085358959864331"/>
+        <entry key="3" type="xdouble" value="0.36075949367088606"/>
+        <entry key="4" type="xdouble" value="0.5630387931034483"/>
+        <entry key="5" type="xdouble" value="0.6426872770511297"/>
+        <entry key="6" type="xdouble" value="0.737489194121602"/>
+        <entry key="7" type="xdouble" value="0.29603122966818485"/>
+        <entry key="8" type="xdouble" value="0.5839080459770118"/>
+        <entry key="9" type="xdouble" value="0.45552090975788706"/>
+        <entry key="10" type="xdouble" value="0.5723758999621072"/>
+        <entry key="11" type="xdouble" value="0.6912340533030189"/>
+        <entry key="12" type="xdouble" value="0.6010256284126124"/>
+    </config>
+    <config key="kMeansCluster2">
+        <entry key="array-size" type="xint" value="13"/>
+        <entry key="0" type="xdouble" value="0.49663107042969734"/>
+        <entry key="1" type="xdouble" value="0.5737664875427454"/>
+        <entry key="2" type="xdouble" value="0.573592302209551"/>
+        <entry key="3" type="xdouble" value="0.6234177215189873"/>
+        <entry key="4" type="xdouble" value="0.44904891304347827"/>
+        <entry key="5" type="xdouble" value="0.22826086956521738"/>
+        <entry key="6" type="xdouble" value="0.12801259537362236"/>
+        <entry key="7" type="xdouble" value="0.6000820344544711"/>
+        <entry key="8" type="xdouble" value="0.2657289002557545"/>
+        <entry key="9" type="xdouble" value="0.6055504139685476"/>
+        <entry key="10" type="xdouble" value="0.17606306736741512"/>
+        <entry key="11" type="xdouble" value="0.1550406115623507"/>
+        <entry key="12" type="xdouble" value="0.24451094709421323"/>
+    </config>
+    <config key="FeatureNames">
+        <entry key="array-size" type="xint" value="14"/>
+        <entry key="0" type="xstring" value="Alcohol"/>
+        <entry key="1" type="xstring" value="Malic acid"/>
+        <entry key="2" type="xstring" value="Ash"/>
+        <entry key="3" type="xstring" value="Alcalinity of ash"/>
+        <entry key="4" type="xstring" value="Magnesium"/>
+        <entry key="5" type="xstring" value="Total phenols"/>
+        <entry key="6" type="xstring" value="Flavanoids"/>
+        <entry key="7" type="xstring" value="Nonflavanoid phenols"/>
+        <entry key="8" type="xstring" value="Proanthocyanins"/>
+        <entry key="9" type="xstring" value="Color intensity"/>
+        <entry key="10" type="xstring" value="Hue"/>
+        <entry key="11" type="xstring" value="OD280/OD315 of diluted wines"/>
+        <entry key="12" type="xstring" value="Proline"/>
+        <entry key="13" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

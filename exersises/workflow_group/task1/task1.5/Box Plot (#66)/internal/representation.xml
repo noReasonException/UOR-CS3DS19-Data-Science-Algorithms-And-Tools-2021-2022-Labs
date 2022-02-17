@@ -39,7 +39,7 @@
     <entry key="inView" type="xboolean" value="true"/>
     <config key="tableIds">
         <entry key="array-size" type="xint" value="1"/>
-        <entry key="0" type="xstring" value="9de72fe1-909e-4eef-86c3-5d2c10ad592a"/>
+        <entry key="0" type="xstring" value="be240bbd-09d7-45ac-963f-877b8cbcc40b"/>
     </config>
     <config key="variables">
         <entry key="numSettings" type="xint" value="1"/>
@@ -68,9 +68,8 @@
         <entry key="key_2" type="xstring" value="columns"/>
         <entry key="class_2" type="xstring" value="[Ljava.lang.String;"/>
         <config key="value_2">
-            <entry key="array-size" type="xint" value="2"/>
+            <entry key="array-size" type="xint" value="1"/>
             <entry key="0" type="xstring" value="WSS"/>
-            <entry key="1" type="xstring" value="Ratio"/>
         </config>
         <entry key="key_3" type="xstring" value="boxColor"/>
         <entry key="class_3" type="xstring" value="java.lang.String"/>
@@ -107,7 +106,7 @@
         <entry key="numSettings" type="xint" value="1"/>
         <config key="inObject_0">
             <entry key="className" type="xstring" value="org.knime.dynamic.js.base.boxplot.BoxplotProcessor_v2$BoxPlotResult"/>
-            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;WSS&quot;:{&quot;upperQuartile&quot;:2370689.68678297,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:2370689.686782968,&quot;lowerWhisker&quot;:2370689.686782967,&quot;upperWhisker&quot;:2370689.686782973,&quot;mildOutliers&quot;:[],&quot;max&quot;:2370689.686782973,&quot;min&quot;:2370689.686782967,&quot;median&quot;:2370689.686782969},&quot;Ratio&quot;:{&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;upperWhisker&quot;:7.479101188001591E-7,&quot;mildOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;WSS&quot;:{&quot;upperQuartile&quot;:2370689.68678297,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:2370689.686782968,&quot;lowerWhisker&quot;:2370689.686782967,&quot;upperWhisker&quot;:2370689.686782973,&quot;mildOutliers&quot;:[],&quot;max&quot;:2370689.686782973,&quot;min&quot;:2370689.686782967,&quot;median&quot;:2370689.686782969},&quot;Ratio&quot;:{&quot;upperQuartile&quot;:7.479101188001585E-7,&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:7.479101188001581E-7,&quot;lowerWhisker&quot;:7.479101188001577E-7,&quot;upperWhisker&quot;:7.479101188001591E-7,&quot;mildOutliers&quot;:[],&quot;max&quot;:7.479101188001591E-7,&quot;min&quot;:7.479101188001577E-7,&quot;median&quot;:7.479101188001583E-7}}}"/>
+            <entry key="jsonValue" type="xstring" value="{&quot;m_stats&quot;:{&quot;WSS&quot;:{&quot;upperQuartile&quot;:2215545.0623848736,&quot;upperWhisker&quot;:2215963.913671242,&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:2215265.8281939607,&quot;lowerWhisker&quot;:2215265.828193959,&quot;median&quot;:2215265.8281939616,&quot;max&quot;:2215963.913671242,&quot;min&quot;:2215265.828193959}},&quot;m_excludedDataCols&quot;:[],&quot;m_numMissValPerCol&quot;:{},&quot;excludedDataCols&quot;:[],&quot;numMissValPerCol&quot;:{},&quot;stats&quot;:{&quot;WSS&quot;:{&quot;upperQuartile&quot;:2215545.0623848736,&quot;upperWhisker&quot;:2215963.913671242,&quot;mildOutliers&quot;:[],&quot;extremeOutliers&quot;:[],&quot;lowerQuartile&quot;:2215265.8281939607,&quot;lowerWhisker&quot;:2215265.828193959,&quot;median&quot;:2215265.8281939616,&quot;max&quot;:2215963.913671242,&quot;min&quot;:2215265.828193959}}}"/>
         </config>
     </config>
     <entry key="warnMessage" type="xstring" value=""/>

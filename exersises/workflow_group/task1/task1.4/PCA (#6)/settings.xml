@@ -76,7 +76,7 @@
         <entry key="x-coordinate" type="xint" value="808"/>
         <entry key="y-coordinate" type="xint" value="539"/>
         <entry key="width" type="xint" value="104"/>
-        <entry key="height" type="xint" value="39"/>
+        <entry key="height" type="xint" value="36"/>
         <entry key="alignment" type="xstring" value="CENTER"/>
         <entry key="borderSize" type="xint" value="0"/>
         <entry key="borderColor" type="xint" value="16777215"/>
@@ -105,12 +105,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 178, Cols: 16"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 162, Cols: 16"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="c6923c51-fd50-46bf-bbfe-e040edd39da9"/>
+        <entry key="file_store_id" type="xstring" value="9e2f92b4-fbe6-44b6-b5fa-9943d05b12d0"/>
     </config>
 </config>

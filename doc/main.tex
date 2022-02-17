@@ -252,40 +252,34 @@
 			\begin{figure}[H]
 				\centering
 				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t11/t11-number-to-cat-conf}
-					\caption{Number to Category(PMML) :This node transforms the 'class' column into a categorical variable }
-					\label{fig:first}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t11/t11-color-manager-conf}
 					\caption{Color Manager: Color Metadata for plot1 on class column}
-					\label{fig:second}
+					\label{fig:first}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t11/t11-duplicate-row-conf}
 					\caption{Duplicate Row Filter:  Standard data clearing, worth mentioning that we exclude the 'class' variable for obvious reasons}
-					\label{fig:third}
-				\end{subfigure}	
-				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[scale=0.2]{res/t1/t11/t11-missing-values-conf}
-					\caption{Missing Value:  Standard data clearing, removal of row in case some of the variables are empty(not observed)}
-					\label{fig:first}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t11/t11-PCA-conf}
-					\caption{PCA: The Principal Component Analysis node, we request to reduce the dimensionality to 2, worth mentioning that, as 'class' is a string column, is automatically excluded from PCA possible collumns}
 					\label{fig:second}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t11/t11-column-resorter-conf}
-					\caption{Column Resorter: bring first and second principal components on top(first 2 columns), to be displayed by Scatter Plot Node}
+					\includegraphics[scale=0.2]{res/t1/t11/t11-missing-values-conf}
+					\caption{Missing Value:  Standard data clearing, removal of row in case some of the variables are empty(not observed)}
 					\label{fig:third}
 				\end{subfigure}	
-				\label{fig:figures}
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t11/t11-PCA-conf}
+					\caption{PCA: The Principal Component Analysis node, we request to reduce the dimensionality to 2, worth mentioning that, as 'class' is a string column, is automatically excluded from PCA possible collumns}
+					\label{fig:first}
+				\end{subfigure}
+				\hfill
+				\begin{subfigure}{0.4\textwidth}
+					\includegraphics[width=\textwidth]{res/t1/t11/t11-column-resorter-conf}
+					\caption{Column Restorer: bring first and second principal components on top(first 2 columns), to be displayed by Scatter Plot Node}
+					\label{fig:second}
+				\end{subfigure}
+				\hfill
 			\end{figure}
 			\fi
 			Finally, the plot1 is given below
@@ -408,26 +402,24 @@
 				\label{fig:figures}
 			\end{figure}
 			\fi
-			
-			
 			Finally, the generated plots are given in the next figure.
 			\iffalse
 			 \begin{figure}[H]
 			 	\centering
 			 	\begin{subfigure}{0.4\textwidth}
-			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plota}
+			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plot3a}
 			 		\caption{plot3a}
 			 		\label{fig:first}
 			 	\end{subfigure}
 			 	\hfill
 			 	\begin{subfigure}{0.4\textwidth}
-			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plotb}
+			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plot3b}
 			 		\caption{plot3b}
 			 		\label{fig:second}
 			 	\end{subfigure}
 			 	\hfill
 			 	\begin{subfigure}{0.4\textwidth}
-			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plotc}
+			 		\includegraphics[width=\textwidth]{res/t1/t14/t14-plot3c}
 			 		\caption{plot3c}
 			 		\label{fig:third}
 			 	\end{subfigure}
@@ -458,7 +450,7 @@
 				\label{fig:figures}
 			\end{figure}
 			\fi
-			 This is the result of the lack of a normalization/standarization process, something that we will explain on the next task.
+			 This is the result of the lack of a normalization process, something that we will explain on the next task.
 		\subsection*{Task 1.5 : Cluster Validity Measure}
 			For our cluster validity measure, we will explain and intepret WSS (Within cluster sum of squares) and BSS (Between cluster sum of squares). The workflow for generating the cluster validity measures is given below
 			\iffalse
@@ -606,15 +598,32 @@
 				\fi
 				It is rather obvious, that the WSS/BSS Ratio is quite small, something that indicates well separated clusters(i.e a good clustering solution). However, a single cluster validity measure on its own, is insufficient to provide enough evidence for a meaningful clustering. Taking into consideration our observations from Task 1.3 and Task 1.4, this clustering \cite{???}is not meaningful, as it produces wrong clusters. This is something that can be explained due to absence of Normalisation/Standardization process, something that we will analyse on Task 2
 	\section*{Task 2}
-		\subsection*{Normalization}
-			The standard Lorem Ipsum passage, used since the 1500s
+		\subsection*{The importance of Normalization}
+			Let the following figure with some of the statistics for Proline and Ash variables
+			\iffalse
+			\begin{center}
+				\includegraphics[scale=0.25]{res/t2/t21/t21-no-norm}
+			\end{center}
+			\fi
+			K-Means is a geometric algorithm, that uses a distance(proximity) metric to evaluate the simmilarity between datapoints. Having one or more variables with significantly greater range of values, will cause this variable to have greater influence on the clustering, producing biased results.
+		\subsection*{How Normalization solves the problem?}
+			Normalization solves the aforementioned issue by transforming all the variables in question, within the range [0-1], without affecting the scales of the distances. Normalization is described with the following formula
+			\iffalse
+			\begin{align}
+				Norm(x) = \frac{x-x_{min}}{x_{max}-x_{min}}
+			\end{align}
+			\fi
 			
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-			Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+			
 		\subsection*{Changes in the workflows}
-			The standard Lorem Ipsum passage, used since the 1500s
+			The only change to apply normalization, is on our pre-processing node. Everything else will be the same. Keep note that the 'normalization' node follows the 'min-max' normalization, with min=0 and max=1. The 'class' variable is automatically excluded.
+			\iffalse
+			\begin{center}
+				\includegraphics[scale=0.35]{res/t2/t23/t23-workflow}
+			\end{center}
+			\fi
 		\subsection*{New Plots}
-			...
+			
 		\subsection*{Compare and Contrast}
 			The standard Lorem Ipsum passage, used since the 1500s
 			
@@ -630,6 +639,10 @@
 		\textit{Grafarend, E. (2006). Linear and nonlinear models (p. 553). Berlin, New York, N.Y.: Walter de Gruyter}
 		\bibitem{entropy}
 		\textit{Shannon, C., 1948. A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), pp.379-423.}
+		\bibitem{normalization}
+		\textit{Shanker M, Hu MY, Hung MS, Effect of Data Standardization on Neural Network Training} https://www.sciencedirect.com/science/article/pii/0305048396000102
+		
+		
 		
 	\end{thebibliography}
 \end{document}

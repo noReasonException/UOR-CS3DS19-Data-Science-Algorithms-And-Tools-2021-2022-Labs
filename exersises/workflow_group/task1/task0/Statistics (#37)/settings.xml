@@ -18,24 +18,24 @@
         <config key="filter_nominal_columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="14"/>
+                <entry key="array-size" type="xint" value="1"/>
                 <entry key="0" type="xstring" value="class"/>
-                <entry key="1" type="xstring" value="Alcohol"/>
-                <entry key="2" type="xstring" value="Malic acid"/>
-                <entry key="3" type="xstring" value="Ash"/>
-                <entry key="4" type="xstring" value="Alcalinity of ash"/>
-                <entry key="5" type="xstring" value="Magnesium"/>
-                <entry key="6" type="xstring" value="Total phenols"/>
-                <entry key="7" type="xstring" value="Flavanoids"/>
-                <entry key="8" type="xstring" value="Nonflavanoid phenols"/>
-                <entry key="9" type="xstring" value="Proanthocyanins"/>
-                <entry key="10" type="xstring" value="Color intensity"/>
-                <entry key="11" type="xstring" value="Hue"/>
-                <entry key="12" type="xstring" value="OD280/OD315 of diluted wines"/>
-                <entry key="13" type="xstring" value="Proline"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="13"/>
+                <entry key="0" type="xstring" value="Alcohol"/>
+                <entry key="1" type="xstring" value="Malic acid"/>
+                <entry key="2" type="xstring" value="Ash"/>
+                <entry key="3" type="xstring" value="Alcalinity of ash"/>
+                <entry key="4" type="xstring" value="Magnesium"/>
+                <entry key="5" type="xstring" value="Total phenols"/>
+                <entry key="6" type="xstring" value="Flavanoids"/>
+                <entry key="7" type="xstring" value="Nonflavanoid phenols"/>
+                <entry key="8" type="xstring" value="Proanthocyanins"/>
+                <entry key="9" type="xstring" value="Color intensity"/>
+                <entry key="10" type="xstring" value="Hue"/>
+                <entry key="11" type="xstring" value="OD280/OD315 of diluted wines"/>
+                <entry key="12" type="xstring" value="Proline"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
             <config key="name_pattern">
@@ -133,19 +133,19 @@
             <entry key="index" type="xint" value="2"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 14, Cols: 3"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_2"/>
         </config>
         <config key="port_3">
             <entry key="index" type="xint" value="3"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 133, Cols: 42"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 3"/>
             <entry key="port_dir_location" type="xstring" value="port_3"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="72f7789c-391f-49a5-b254-6c703a5d4412"/>
+        <entry key="file_store_id" type="xstring" value="755576d6-cadb-4476-afb0-8775e57fd65f"/>
     </config>
 </config>
