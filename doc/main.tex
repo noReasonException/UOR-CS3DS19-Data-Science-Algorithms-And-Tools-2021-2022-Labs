@@ -75,9 +75,9 @@
 	\pagebreak
 	
 	\section*{Task 0: Exploratory Data Analysis}
-		In this section, we will try to get familiarize ourselfs with the given dataset, with the ultimate goal of designing an appropriate pre-prossesing process, necessary for our future workflows. It is noteworthy that a normalisation proccess is absent from our EDA, this is because, normalisation/standardization will be explained and applied on Task2
+		In this section, we will try to familiarise ourselves with the given dataset, with the ultimate goal of designing an appropriate pre-processing process necessary for our future workflows. It is noteworthy that a normalisation process is absent from our EDA; Normalisation will be explained and applied on Task 2.
 		\subsection*{Missing values detection}
-			The first part of EDA is the Missing values detection. We used the output of the statistics node, (output contains 'No of Missing' per variable) and we sum for all the variables, by using 'Group By' Node. The results along with the node configurations are given below. Based on the findings we can safely ignore a missing values pre-prepossessing step
+			The first part of EDA is the detection of possible Missing values. We used the 'statistics' node (output contains 'No of Missing' variable) and sum for all the variables by using 'Group By' Node. The results, along with the node configurations, are given below. Based on the findings, we can safely ignore a missing values pre-prepossessing step.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t0/t01/t01-missing-values-res}
@@ -94,25 +94,25 @@
 				\centering
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t01/t01-statistics-conf}
-					\caption{Statistics, generate various statistics, Number of missing per variable included}
+					\caption{Statistics Node: Generate various statistics, 'Number of missing' per variable, variable included}
 					\label{fig:first}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t01/t01-column-filter-conf}
-					\caption{Column Filter : Keep only 'No of Missing' and Variable Name}
+					\caption{Column Filter: Keep only 'No of Missing' and Variable Name}
 					\label{fig:second}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t01/t01-groupby-conf-1}
-					\caption{Reduce apply SUM function to 'No of Missing' per variable}
+					\caption{Reduce: Apply SUM function to 'No of Missing' per variable, groups}
 					\label{fig:third}
 				\end{subfigure}	
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t01/t01-groupby-conf-2}
-					\caption{Reduce apply SUM function to 'No of Missing' per variable 2}
+					\caption{Reduce: Apply SUM function to 'No of Missing' per variable, aggregation}
 					\label{fig:third}
 				\end{subfigure}	
 				\label{fig:figures}
@@ -120,7 +120,7 @@
 			\fi
 			
 		\subsection*{Duplicate detection}
-			The second part of EDA is the duplicate values detection and removal. Our logic is rather simple, we applied a 'Duplicate Row Filter' into the dataset, and we counted the number of rows of this result, if the number of rows remains unchanged, then we do not have duplicates. The results suggest that, indeed, there is no duplicate entries, so its safe to ignore a duplicate filter as a pre-processing step
+			The second part of EDA detects and removes duplicate rows from our dataset. Our logic is relatively simple, we applied a 'Duplicate Row Filter' into the dataset, and we counted the number of rows of this result. If the number of rows remains unchanged, we do not have duplicates. The results suggest that, indeed, there are no duplicate entries, so it's safe to ignore a duplicate filter as a pre-processing step.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t0/t02/t02-results}
@@ -137,30 +137,30 @@
 				\centering
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t02/t02-duplicate-filter-conf}
-					\caption{Duplicate Row Filter: We exclude class for obvious reasons}
+					\caption{Duplicate row filter configuration}
 					\label{fig:first}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t0/t02/t02-concat-conf}
-					\caption{Concatenate: We perform union on the table dimensions before, and after the duplicates removal. If those numbers are equal, then the filter removed 0 rows, hence there is no duplicates}
+					\caption{Concatenation: We perform union on the table dimensions before and after removing the duplicates. If those numbers are equal, the filter removed 0 rows; hence there are no duplicates.}
 					\label{fig:second}
 				\end{subfigure}
 				\hfill
 			\end{figure}
 			\fi
-		\subsection*{Outliers detection }
-			Our third part of our EDA, contains the detection of outliers. We need to carefully thing about outliers, because one of the limitations of our chosen clustering algorithm of choice. One of K-Means limitations are the sensitivity to outliers \cite{???}. 
-			\subsubsection*{How to detect outliers}
-				Assuming an underlying approximate normal distribution on every of our variables, we will use the famous 68-95-99 empirical rule\cite{3stddev-rule} to detect outliers. Part of 68-95-99 rule states that, $99.7\%$ of the data, lies within the range $\mu \pm 3*\sigma$, where $\mu$ is the variable mean and $\sigma$ is the standard deviation. It is rather simple to detect for outliers with the following method. We will use the output of the 'Statistics' node(columns 'max','min','mean','stddev'), and by using a simple mathematical formula, we can determine if, for a given variable, $\text{max}>\mu + 3\cdot\sigma$ or $\text{min}<\mu - 3\cdot\sigma$
+		\subsection*{Outliers detection}
+			Our third part of our EDA contains the detection of outliers. We need to carefully think about outliers because of one of the limitations of our chosen clustering algorithm of choice. One of K-Means limitations are the sensitivity to outliers. \cite{k-means-sensitive}. 
+			\subsubsection*{The process}
+				Assuming an underlying approximate normal distribution on every one of our variables, we will use the famous 68-95-99 empirical rule\cite{3stddev-rule} to detect outliers. Part of the 68-95-99 rule states that $99.7\%$ of the data points in a given approximately normal distribution lies within the range $\mu \pm 3*\sigma$, where $\mu$ is the variable mean and $\sigma$ is the standard deviation. It is rather simple to detect outliers with the following method. We will use the output of the 'Statistics' node(columns 'max','min','mean','stddev'), and by using a simple mathematical formula, we can determine if, for a given variable, $\text{max}>\mu + 3\cdot\sigma$ or $\text{min}<\mu - 3\cdot\sigma$
 			\subsubsection*{Results}
-				The next figure displays the variables that may contain outliers. We can see that 8 out of 14 variables contain outliers. 
+				The next figure displays the variables that may\footnote{because of our assumption of approximately normal distribution on our variables.} contain outliers.
 				\iftrue
 				\begin{center}
 					\includegraphics[scale=0.5]{res/t0/t03/t03-results}
 				\end{center}
 				\fi
-				We can visualize those suspected variables with box plots, to visually verify our findings
+				We can visualize those suspected variables with box plots to visually verify our findings.
 				\iftrue
 				\begin{figure}[H]
 					\centering
@@ -189,13 +189,13 @@
 					\centering
 					\begin{subfigure}{0.4\textwidth}
 						\includegraphics[width=\textwidth]{res/t0/t03/t03-math-formula-max-outliers-conf}
-						\caption{We use the empirical rule, to calculate if every variable's max, exceeds $\mu + 3\cdot\sigma$}
+						\caption{We use the empirical rule to calculate if every variable's max exceeds $\mu + 3\cdot\sigma$}
 						\label{fig:first}
 					\end{subfigure}
 					\hfill
 					\begin{subfigure}{0.4\textwidth}
 						\includegraphics[width=\textwidth]{res/t0/t03/t03-math-formula-min-outliers-conf}
-						\caption{We use the empirical rule again, to calculate if every variable's min is smaller than $\mu - 3\cdot\sigma$}
+						\caption{We use the empirical rule again to calculate if every variable's min is smaller than $\mu - 3\cdot\sigma$}
 						\label{fig:second}
 					\end{subfigure}
 					\hfill
@@ -215,7 +215,7 @@
 				\fi
 			
 		\subsection*{'Class' to  string}
-			The last step of our EDA, is to transform 'class' column, from an integer column, into a string column. This is essential to be handled as a categorical variable by the color manager, PCA, normalization and etc. This can be easily achieved with the following small workflow
+			The last step of our EDA is to transform the 'class' column, from an integer column, into a string column; this is essential to be handled as a categorical variable by the colour manager, PCA, normalization, etc. This can be easily achieved with the following small workflow.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t0/t04/t04-workflow}
@@ -231,7 +231,7 @@
 			\end{figure}
 			\fi
 		\subsection*{Our Pre-processing strategy}
-			Given  our EDA, we now have a clear strategy for the initial data cleansing, and processing. The following workflow will be transformed into a metanode, and will be included into every workflow from now on. A noteworthy mention, is the fact that the 'numeric outliers' strategy is to remove the outlier rows.
+			Given our EDA, we now have a clear strategy for the initial data cleansing and processing. The following workflow will be transformed into a meta node and included in every workflow from now on. A noteworthy mention is that the 'numeric outliers' strategy is to remove the outlier rows.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t0/t05/t05-workflow}
@@ -241,55 +241,44 @@
 
 	\section*{Task 1}
 		\subsection*{Task 1.1 : Generate plot1}
-			The workflow to generate plot1 is given below
+			The workflow to generate plot1 is given below.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t1/t11/t11-workflow}
 			\end{center}
 			\fi
-			And the configurations of the nodes with descriptions are given below
+			And the node configurations with descriptions are given below.
 			\iftrue
 			\begin{figure}[H]
 				\centering
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t11/t11-color-manager-conf}
-					\caption{Color Manager: Color Metadata for plot1 on class column}
+					\caption{Color Manager: Color Metadata for plot1 on 'class' column.}
 					\label{fig:first}
 				\end{subfigure}
-				\hfill
-				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[width=\textwidth]{res/t1/t11/t11-duplicate-row-conf}
-					\caption{Duplicate Row Filter:  Standard data clearing, worth mentioning that we exclude the 'class' variable for obvious reasons}
-					\label{fig:second}
-				\end{subfigure}
-				\hfill
-				\begin{subfigure}{0.4\textwidth}
-					\includegraphics[scale=0.2]{res/t1/t11/t11-missing-values-conf}
-					\caption{Missing Value:  Standard data clearing, removal of row in case some of the variables are empty(not observed)}
-					\label{fig:third}
-				\end{subfigure}	
+				\hfil
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t11/t11-PCA-conf}
-					\caption{PCA: The Principal Component Analysis node, we request to reduce the dimensionality to 2, worth mentioning that, as 'class' is a string column, is automatically excluded from PCA possible collumns}
+					\caption{PCA: The Principal Component Analysis node, we request to reduce the dimensionality to 2, worth mentioning that, as 'class' is a string column, it is automatically excluded from PCA possible columns.}
 					\label{fig:first}
 				\end{subfigure}
 				\hfill
 				\begin{subfigure}{0.4\textwidth}
 					\includegraphics[width=\textwidth]{res/t1/t11/t11-column-resorter-conf}
-					\caption{Column Restorer: bring first and second principal components on top(first 2 columns), to be displayed by Scatter Plot Node}
+					\caption{Column Restorer: move first and second principal components on top(first two columns), to be displayed by Scatter Plot Node.}
 					\label{fig:second}
 				\end{subfigure}
 				\hfill
 			\end{figure}
 			\fi
-			Finally, the plot1 is given below
+			Finally, plot1 is given below.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.5]{res/t1/t11/t11-plot1}
 			\end{center}
 			\fi
 		\subsection*{Task 1.2 : Generate plot2}
-			The workflow to generate plot2 is given below
+			The workflow to generate plot2 is given below.
 			\iftrue
 			\begin{center}
 				\includegraphics[scale=0.35]{res/t1/t12/t12-workflow}
@@ -707,6 +696,9 @@
 		\textit{Shannon, C., 1948. A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), pp.379-423.}
 		\bibitem{normalization}
 		\textit{Shanker M, Hu MY, Hung MS, Effect of Data Standardization on Neural Network Training} https://www.sciencedirect.com/science/article/pii/0305048396000102
+		
+		\bibitem{k-means-sensitive}
+		\textit{Sammut, C., n.d. Encyclopedia of machine learning and data mining. Springer.}
 		
 		
 		
