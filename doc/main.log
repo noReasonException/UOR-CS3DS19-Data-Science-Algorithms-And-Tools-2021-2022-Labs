@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  22 MAR 2022 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.7.19)  22 MAR 2022 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1536,6 +1536,11 @@ File: res/t1/t12/t12-kmeans-wss-conf.png Graphic file (type png)
 Package pdftex.def Info: res/t1/t12/t12-kmeans-wss-conf.png  used on input line
  293.
 (pdftex.def)             Requested size: 193.47577pt x 122.43011pt.
+
+Underfull \hbox (badness 1377) in paragraph at lines 294--294
+\OT1/ptm/m/n/10 ter-ing al-go-rithm of choice, the ex-act inner-
+ []
+
 <res/t1/t12/t12-color-manager-conf.png, id=89, 719.68875pt x 485.815pt>
 File: res/t1/t12/t12-color-manager-conf.png Graphic file (type png)
 <use res/t1/t12/t12-color-manager-conf.png>
@@ -1547,48 +1552,47 @@ File: res/t1/t12/t12-plot2.png Graphic file (type png)
 <use res/t1/t12/t12-plot2.png>
 Package pdftex.def Info: res/t1/t12/t12-plot2.png  used on input line 309.
 (pdftex.def)             Requested size: 446.66765pt x 229.35631pt.
-
 [8 <./res/t1/t12/t12-workflow.png> <./res/t1/t12/t12-kmeans-wss-conf.png> <./re
 s/t1/t12/t12-color-manager-conf.png> <./res/t1/t12/t12-plot2.png>]
 <res/t1/t12/t12-kmeans-1.png, id=99, 595.22375pt x 20.075pt>
 File: res/t1/t12/t12-kmeans-1.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-1.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-1.png  used on input line 319.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-1.png  used on input line 318.
 (pdftex.def)             Requested size: 297.61115pt x 10.03746pt.
 <res/t1/t12/t12-kmeans-2.png, id=100, 595.22375pt x 46.1725pt>
 File: res/t1/t12/t12-kmeans-2.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-2.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-2.png  used on input line 325.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-2.png  used on input line 324.
 (pdftex.def)             Requested size: 297.61115pt x 23.08618pt.
 <res/t1/t12/t12-kmeans-3.png, id=101, 595.22375pt x 192.72pt>
 File: res/t1/t12/t12-kmeans-3.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-3.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-3.png  used on input line 333.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-3.png  used on input line 330.
 (pdftex.def)             Requested size: 297.61115pt x 96.35976pt.
 <res/t1/t12/t12-kmeans-4.png, id=102, 595.22375pt x 52.195pt>
 File: res/t1/t12/t12-kmeans-4.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-4.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-4.png  used on input line 339.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-4.png  used on input line 336.
 (pdftex.def)             Requested size: 297.61115pt x 26.09743pt.
 <res/t1/t12/t12-kmeans-5.png, id=103, 595.22375pt x 108.405pt>
 File: res/t1/t12/t12-kmeans-5.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-5.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-5.png  used on input line 345.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-5.png  used on input line 342.
 (pdftex.def)             Requested size: 297.61115pt x 54.20236pt.
 <res/t1/t12/t12-kmeans-6.png, id=104, 595.22375pt x 108.405pt>
 File: res/t1/t12/t12-kmeans-6.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-6.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-6.png  used on input line 351.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-6.png  used on input line 348.
 (pdftex.def)             Requested size: 297.61115pt x 54.20236pt.
 <res/t1/t12/t12-kmeans-7.png, id=105, 639.38875pt x 108.405pt>
 File: res/t1/t12/t12-kmeans-7.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-7.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-7.png  used on input line 352.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-7.png  used on input line 349.
 (pdftex.def)             Requested size: 319.69359pt x 54.20236pt.
 <res/t1/t12/t12-kmeans-8.png, id=106, 639.38875pt x 108.405pt>
 File: res/t1/t12/t12-kmeans-8.png Graphic file (type png)
 <use res/t1/t12/t12-kmeans-8.png>
-Package pdftex.def Info: res/t1/t12/t12-kmeans-8.png  used on input line 353.
+Package pdftex.def Info: res/t1/t12/t12-kmeans-8.png  used on input line 350.
 (pdftex.def)             Requested size: 319.69359pt x 54.20236pt.
  [9 <./res/t1/t12/t12-kmeans-1.png> <./res/t1/t12/t12-kmeans-2.png> <./res/t1/t
 12/t12-kmeans-3.png> <./res/t1/t12/t12-kmeans-4.png> <./res/t1/t12/t12-kmeans-5
@@ -1597,40 +1601,40 @@ Package pdftex.def Info: res/t1/t12/t12-kmeans-8.png  used on input line 353.
 <res/t1/t14/t14-workflow.png, id=118, 906.38625pt x 423.5825pt>
 File: res/t1/t14/t14-workflow.png Graphic file (type png)
 <use res/t1/t14/t14-workflow.png>
-Package pdftex.def Info: res/t1/t14/t14-workflow.png  used on input line 367.
+Package pdftex.def Info: res/t1/t14/t14-workflow.png  used on input line 362.
 (pdftex.def)             Requested size: 226.59601pt x 105.89536pt.
 <res/t1/t14/t14-row-filter-1-conf.png, id=119, 679.53876pt x 489.83pt>
 File: res/t1/t14/t14-row-filter-1-conf.png Graphic file (type png)
 <use res/t1/t14/t14-row-filter-1-conf.png>
 Package pdftex.def Info: res/t1/t14/t14-row-filter-1-conf.png  used on input li
-ne 375.
+ne 370.
 (pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
 <res/t1/t14/t14-row-filter-2-conf.png, id=120, 679.53876pt x 489.83pt>
 File: res/t1/t14/t14-row-filter-2-conf.png Graphic file (type png)
 <use res/t1/t14/t14-row-filter-2-conf.png>
 Package pdftex.def Info: res/t1/t14/t14-row-filter-2-conf.png  used on input li
-ne 381.
+ne 376.
 (pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
 <res/t1/t14/t14-row-filter-3-conf.png, id=121, 679.53876pt x 489.83pt>
 File: res/t1/t14/t14-row-filter-3-conf.png Graphic file (type png)
 <use res/t1/t14/t14-row-filter-3-conf.png>
 Package pdftex.def Info: res/t1/t14/t14-row-filter-3-conf.png  used on input li
-ne 387.
+ne 382.
 (pdftex.def)             Requested size: 193.47577pt x 139.46098pt.
 <res/t1/t14/t14-plot3a.png, id=122, 906.38625pt x 453.695pt>
 File: res/t1/t14/t14-plot3a.png Graphic file (type png)
 <use res/t1/t14/t14-plot3a.png>
-Package pdftex.def Info: res/t1/t14/t14-plot3a.png  used on input line 399.
+Package pdftex.def Info: res/t1/t14/t14-plot3a.png  used on input line 394.
 (pdftex.def)             Requested size: 193.47577pt x 96.8433pt.
 <res/t1/t14/t14-plot3b.png, id=123, 906.38625pt x 453.695pt>
 File: res/t1/t14/t14-plot3b.png Graphic file (type png)
 <use res/t1/t14/t14-plot3b.png>
-Package pdftex.def Info: res/t1/t14/t14-plot3b.png  used on input line 405.
+Package pdftex.def Info: res/t1/t14/t14-plot3b.png  used on input line 400.
 (pdftex.def)             Requested size: 193.47577pt x 96.8433pt.
 <res/t1/t14/t14-plot3c.png, id=124, 906.38625pt x 453.695pt>
 File: res/t1/t14/t14-plot3c.png Graphic file (type png)
 <use res/t1/t14/t14-plot3c.png>
-Package pdftex.def Info: res/t1/t14/t14-plot3c.png  used on input line 411.
+Package pdftex.def Info: res/t1/t14/t14-plot3c.png  used on input line 406.
 (pdftex.def)             Requested size: 193.47577pt x 96.8433pt.
  [10 <./res/t1/t14/t14-workflow.png> <./res/t1/t14/t14-row-filter-1-conf.png> <
 ./res/t1/t14/t14-row-filter-2-conf.png> <./res/t1/t14/t14-row-filter-3-conf.png
@@ -1638,25 +1642,25 @@ Package pdftex.def Info: res/t1/t14/t14-plot3c.png  used on input line 411.
 <res/t1/t14/t14-plota-dist.png, id=132, 749.80125pt x 440.64626pt>
 File: res/t1/t14/t14-plota-dist.png Graphic file (type png)
 <use res/t1/t14/t14-plota-dist.png>
-Package pdftex.def Info: res/t1/t14/t14-plota-dist.png  used on input line 423.
+Package pdftex.def Info: res/t1/t14/t14-plota-dist.png  used on input line 418.
 
 (pdftex.def)             Requested size: 193.47577pt x 113.69795pt.
 <res/t1/t14/t14-plotb-dist.png, id=133, 749.80125pt x 440.64626pt>
 File: res/t1/t14/t14-plotb-dist.png Graphic file (type png)
 <use res/t1/t14/t14-plotb-dist.png>
-Package pdftex.def Info: res/t1/t14/t14-plotb-dist.png  used on input line 429.
+Package pdftex.def Info: res/t1/t14/t14-plotb-dist.png  used on input line 424.
 
 (pdftex.def)             Requested size: 193.47577pt x 113.69795pt.
 <res/t1/t14/t14-plotc-dist.png, id=134, 749.80125pt x 440.64626pt>
 File: res/t1/t14/t14-plotc-dist.png Graphic file (type png)
 <use res/t1/t14/t14-plotc-dist.png>
-Package pdftex.def Info: res/t1/t14/t14-plotc-dist.png  used on input line 435.
+Package pdftex.def Info: res/t1/t14/t14-plotc-dist.png  used on input line 430.
 
 (pdftex.def)             Requested size: 193.47577pt x 113.69795pt.
 <res/t1/t15/t15-workflow.png, id=135, 1128.215pt x 222.8325pt>
 File: res/t1/t15/t15-workflow.png Graphic file (type png)
 <use res/t1/t15/t15-workflow.png>
-Package pdftex.def Info: res/t1/t15/t15-workflow.png  used on input line 447.
+Package pdftex.def Info: res/t1/t15/t15-workflow.png  used on input line 442.
 (pdftex.def)             Requested size: 282.05305pt x 55.70798pt.
  [11 <./res/t1/t14/t14-plot3a.png> <./res/t1/t14/t14-plot3b.png> <./res/t1/t14/
 t14-plot3c.png> <./res/t1/t14/t14-plota-dist.png> <./res/t1/t14/t14-plotb-dist.
@@ -1665,202 +1669,168 @@ png> <./res/t1/t14/t14-plotc-dist.png>]
 File: res/t1/t15/t15-counting-loop-start-conf.png Graphic file (type png)
 <use res/t1/t15/t15-counting-loop-start-conf.png>
 Package pdftex.def Info: res/t1/t15/t15-counting-loop-start-conf.png  used on i
-nput line 455.
-(pdftex.def)             Requested size: 193.47577pt x 105.11798pt.
-
-
-LaTeX Warning: Citation `???' on page 12 undefined on input line 456.
-
-
-LaTeX Warning: Citation `???' on page 12 undefined on input line 456.
-
+nput line 450.
+(pdftex.def)             Requested size: 169.29684pt x 91.97981pt.
 <res/t1/t15/t15-shuffle-conf.png, id=146, 509.905pt x 277.035pt>
 File: res/t1/t15/t15-shuffle-conf.png Graphic file (type png)
 <use res/t1/t15/t15-shuffle-conf.png>
-Package pdftex.def Info: res/t1/t15/t15-shuffle-conf.png  used on input line 46
-1.
-(pdftex.def)             Requested size: 193.47577pt x 105.11798pt.
-
-LaTeX Warning: Citation `???' on page 12 undefined on input line 462.
-
-
-LaTeX Warning: Citation `???' on page 12 undefined on input line 462.
-
+Package pdftex.def Info: res/t1/t15/t15-shuffle-conf.png  used on input line 45
+6.
+(pdftex.def)             Requested size: 169.29684pt x 91.97981pt.
 <res/t1/t15/t15-loop-end-conf.png, id=147, 509.905pt x 353.32pt>
 File: res/t1/t15/t15-loop-end-conf.png Graphic file (type png)
 <use res/t1/t15/t15-loop-end-conf.png>
 Package pdftex.def Info: res/t1/t15/t15-loop-end-conf.png  used on input line 4
-67.
-(pdftex.def)             Requested size: 193.47577pt x 134.0635pt.
+62.
+(pdftex.def)             Requested size: 169.29684pt x 117.3076pt.
 <res/t1/t15/t15-row-id-conf.png, id=148, 540.0175pt x 378.41376pt>
 File: res/t1/t15/t15-row-id-conf.png Graphic file (type png)
 <use res/t1/t15/t15-row-id-conf.png>
-Package pdftex.def Info: res/t1/t15/t15-row-id-conf.png  used on input line 472
+Package pdftex.def Info: res/t1/t15/t15-row-id-conf.png  used on input line 467
 .
 (pdftex.def)             Requested size: 193.47577pt x 135.57637pt.
 <res/t1/t15/t15-math-formula-conf.png, id=149, 850.17625pt x 590.205pt>
 File: res/t1/t15/t15-math-formula-conf.png Graphic file (type png)
 <use res/t1/t15/t15-math-formula-conf.png>
 Package pdftex.def Info: res/t1/t15/t15-math-formula-conf.png  used on input li
-ne 478.
-(pdftex.def)             Requested size: 193.47577pt x 134.31236pt.
+ne 473.
+(pdftex.def)             Requested size: 169.29684pt x 117.52557pt.
 <res/t1/t15/t15-domain-calculator-conf.png, id=150, 756.8275pt x 396.48125pt>
 File: res/t1/t15/t15-domain-calculator-conf.png Graphic file (type png)
 <use res/t1/t15/t15-domain-calculator-conf.png>
 Package pdftex.def Info: res/t1/t15/t15-domain-calculator-conf.png  used on inp
-ut line 484.
-(pdftex.def)             Requested size: 193.47577pt x 101.35243pt.
+ut line 479.
+(pdftex.def)             Requested size: 169.29684pt x 88.69019pt.
 <res/t1/t15/t15-numeric-outliers-conf.png, id=151, 756.8275pt x 496.85625pt>
 File: res/t1/t15/t15-numeric-outliers-conf.png Graphic file (type png)
 <use res/t1/t15/t15-numeric-outliers-conf.png>
 Package pdftex.def Info: res/t1/t15/t15-numeric-outliers-conf.png  used on inpu
-t line 489.
-(pdftex.def)             Requested size: 193.47577pt x 127.01129pt.
-[12 <./res/t1/t15/t15-workflow.png>]
-Overfull \vbox (20.18625pt too high) has occurred while \output is active []
-
-
-[13 <./res/t1/t15/t15-counting-loop-start-conf.png> <./res/t1/t15/t15-shuffle-c
-onf.png> <./res/t1/t15/t15-loop-end-conf.png> <./res/t1/t15/t15-row-id-conf.png
-> <./res/t1/t15/t15-math-formula-conf.png> <./res/t1/t15/t15-domain-calculator-
-conf.png> <./res/t1/t15/t15-numeric-outliers-conf.png>]
-
-LaTeX Warning: Citation `???' on page 14 undefined on input line 498.
-
-
-LaTeX Warning: Citation `???' on page 14 undefined on input line 498.
-
+t line 484.
+(pdftex.def)             Requested size: 169.29684pt x 111.1434pt.
+ [12 <./res/t1/t15/t15-workflow.png>] [13 <./res/t1/t15/t15-counting-loop-start
+-conf.png> <./res/t1/t15/t15-shuffle-conf.png> <./res/t1/t15/t15-loop-end-conf.
+png> <./res/t1/t15/t15-row-id-conf.png> <./res/t1/t15/t15-math-formula-conf.png
+> <./res/t1/t15/t15-domain-calculator-conf.png> <./res/t1/t15/t15-numeric-outli
+ers-conf.png>]
 <res/t1/t15/t15-SSE.png, id=167, 617.30624pt x 350.30875pt>
 File: res/t1/t15/t15-SSE.png Graphic file (type png)
 <use res/t1/t15/t15-SSE.png>
-Package pdftex.def Info: res/t1/t15/t15-SSE.png  used on input line 501.
+Package pdftex.def Info: res/t1/t15/t15-SSE.png  used on input line 496.
 (pdftex.def)             Requested size: 308.65236pt x 175.15395pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 518--522
+Underfull \hbox (badness 10000) in paragraph at lines 513--517
 
  []
-
-
-LaTeX Warning: Citation `???' on page 14 undefined on input line 527.
 
 <res/t1/t15/t15-WSS.png, id=168, 1008.76875pt x 472.76625pt>
 File: res/t1/t15/t15-WSS.png Graphic file (type png)
 <use res/t1/t15/t15-WSS.png>
-Package pdftex.def Info: res/t1/t15/t15-WSS.png  used on input line 532.
+Package pdftex.def Info: res/t1/t15/t15-WSS.png  used on input line 527.
 (pdftex.def)             Requested size: 193.47577pt x 90.67053pt.
 <res/t1/t15/t15-BSS.png, id=169, 1008.76875pt x 472.76625pt>
 File: res/t1/t15/t15-BSS.png Graphic file (type png)
 <use res/t1/t15/t15-BSS.png>
-Package pdftex.def Info: res/t1/t15/t15-BSS.png  used on input line 538.
+Package pdftex.def Info: res/t1/t15/t15-BSS.png  used on input line 533.
 (pdftex.def)             Requested size: 193.47577pt x 90.67053pt.
 [14 <./res/t1/t15/t15-SSE.png>]
 
-LaTeX Warning: Citation `???' on page 15 undefined on input line 547.
-
-
-LaTeX Warning: Citation `???' on page 15 undefined on input line 555.
-
-
-LaTeX Warning: Citation `???' on page 15 undefined on input line 563.
+LaTeX Warning: Citation `7' on page 15 undefined on input line 558.
 
 <res/t1/t15/t15-WSS-plot.png, id=175, 915.42pt x 670.505pt>
 File: res/t1/t15/t15-WSS-plot.png Graphic file (type png)
 <use res/t1/t15/t15-WSS-plot.png>
-Package pdftex.def Info: res/t1/t15/t15-WSS-plot.png  used on input line 569.
+Package pdftex.def Info: res/t1/t15/t15-WSS-plot.png  used on input line 564.
 (pdftex.def)             Requested size: 193.47577pt x 141.71054pt.
 <res/t1/t15/t15-BSS-plot.png, id=176, 915.42pt x 670.505pt>
 File: res/t1/t15/t15-BSS-plot.png Graphic file (type png)
 <use res/t1/t15/t15-BSS-plot.png>
-Package pdftex.def Info: res/t1/t15/t15-BSS-plot.png  used on input line 575.
+Package pdftex.def Info: res/t1/t15/t15-BSS-plot.png  used on input line 570.
 (pdftex.def)             Requested size: 193.47577pt x 141.71054pt.
 <res/t1/t15/t15-Ratio-plot.png, id=177, 915.42pt x 670.505pt>
 File: res/t1/t15/t15-Ratio-plot.png Graphic file (type png)
 <use res/t1/t15/t15-Ratio-plot.png>
-Package pdftex.def Info: res/t1/t15/t15-Ratio-plot.png  used on input line 581.
+Package pdftex.def Info: res/t1/t15/t15-Ratio-plot.png  used on input line 576.
 
 (pdftex.def)             Requested size: 193.47577pt x 141.71054pt.
 [15 <./res/t1/t15/t15-WSS.png> <./res/t1/t15/t15-BSS.png>]
-
-LaTeX Warning: Citation `???' on page 16 undefined on input line 588.
-
 <res/t2/t21/t21-no-norm.png, id=183, 528.97626pt x 220.825pt>
 File: res/t2/t21/t21-no-norm.png Graphic file (type png)
 <use res/t2/t21/t21-no-norm.png>
-Package pdftex.def Info: res/t2/t21/t21-no-norm.png  used on input line 594.
+Package pdftex.def Info: res/t2/t21/t21-no-norm.png  used on input line 589.
 (pdftex.def)             Requested size: 132.24373pt x 55.2061pt.
-[16 <./res/t1/t15/t15-WSS-plot.png> <./res/t1/t15/t15-BSS-plot.png> <./res/t1/t
-15/t15-Ratio-plot.png> <./res/t2/t21/t21-no-norm.png>]
+ [16 <./res/t1/t15/t15-WSS-plot.png> <./res/t1/t15/t15-BSS-plot.png> <./res/t1/
+t15/t15-Ratio-plot.png> <./res/t2/t21/t21-no-norm.png>]
 <res/t2/t23/t23-workflow.png, id=191, 644.4075pt x 214.8025pt>
 File: res/t2/t23/t23-workflow.png Graphic file (type png)
 <use res/t2/t23/t23-workflow.png>
-Package pdftex.def Info: res/t2/t23/t23-workflow.png  used on input line 609.
+Package pdftex.def Info: res/t2/t23/t23-workflow.png  used on input line 604.
 (pdftex.def)             Requested size: 225.546pt x 75.18199pt.
 <res/t2/t24/t24-plot21.png, id=192, 902.37125pt x 462.72874pt>
 File: res/t2/t24/t24-plot21.png Graphic file (type png)
 <use res/t2/t24/t24-plot21.png>
-Package pdftex.def Info: res/t2/t24/t24-plot21.png  used on input line 617.
+Package pdftex.def Info: res/t2/t24/t24-plot21.png  used on input line 612.
 (pdftex.def)             Requested size: 193.47577pt x 99.20937pt.
 <res/t2/t24/t24-plot22.png, id=193, 902.37125pt x 462.72874pt>
 File: res/t2/t24/t24-plot22.png Graphic file (type png)
 <use res/t2/t24/t24-plot22.png>
-Package pdftex.def Info: res/t2/t24/t24-plot22.png  used on input line 623.
+Package pdftex.def Info: res/t2/t24/t24-plot22.png  used on input line 618.
 (pdftex.def)             Requested size: 193.47577pt x 99.20937pt.
 <res/t2/t24/t24-plot23a.png, id=194, 902.37125pt x 462.72874pt>
 File: res/t2/t24/t24-plot23a.png Graphic file (type png)
 <use res/t2/t24/t24-plot23a.png>
-Package pdftex.def Info: res/t2/t24/t24-plot23a.png  used on input line 629.
+Package pdftex.def Info: res/t2/t24/t24-plot23a.png  used on input line 624.
 (pdftex.def)             Requested size: 145.11052pt x 74.40526pt.
 <res/t2/t24/t24-plot23a-dist.png, id=195, 748.7975pt x 457.71pt>
 File: res/t2/t24/t24-plot23a-dist.png Graphic file (type png)
 <use res/t2/t24/t24-plot23a-dist.png>
 Package pdftex.def Info: res/t2/t24/t24-plot23a-dist.png  used on input line 63
-5.
+0.
 (pdftex.def)             Requested size: 145.11052pt x 88.69785pt.
 <res/t2/t24/t24-plot23b.png, id=196, 902.37125pt x 462.72874pt>
 File: res/t2/t24/t24-plot23b.png Graphic file (type png)
 <use res/t2/t24/t24-plot23b.png>
-Package pdftex.def Info: res/t2/t24/t24-plot23b.png  used on input line 641.
+Package pdftex.def Info: res/t2/t24/t24-plot23b.png  used on input line 636.
 (pdftex.def)             Requested size: 145.11052pt x 74.40526pt.
 <res/t2/t24/t24-plot23b-dist.png, id=197, 748.7975pt x 457.71pt>
 File: res/t2/t24/t24-plot23b-dist.png Graphic file (type png)
 <use res/t2/t24/t24-plot23b-dist.png>
 Package pdftex.def Info: res/t2/t24/t24-plot23b-dist.png  used on input line 64
-7.
+2.
 (pdftex.def)             Requested size: 145.11052pt x 88.69785pt.
 <res/t2/t24/t24-plot23c.png, id=198, 902.37125pt x 462.72874pt>
 File: res/t2/t24/t24-plot23c.png Graphic file (type png)
 <use res/t2/t24/t24-plot23c.png>
-Package pdftex.def Info: res/t2/t24/t24-plot23c.png  used on input line 653.
+Package pdftex.def Info: res/t2/t24/t24-plot23c.png  used on input line 648.
 (pdftex.def)             Requested size: 145.11052pt x 74.40526pt.
 <res/t2/t24/t24-plot23c-dist.png, id=199, 748.7975pt x 457.71pt>
 File: res/t2/t24/t24-plot23c-dist.png Graphic file (type png)
 <use res/t2/t24/t24-plot23c-dist.png>
 Package pdftex.def Info: res/t2/t24/t24-plot23c-dist.png  used on input line 65
-9.
+4.
 (pdftex.def)             Requested size: 145.11052pt x 88.69785pt.
 <res/t2/t24/t24-WSS-plot.png, id=200, 969.6225pt x 690.58pt>
 File: res/t2/t24/t24-WSS-plot.png Graphic file (type png)
 <use res/t2/t24/t24-WSS-plot.png>
-Package pdftex.def Info: res/t2/t24/t24-WSS-plot.png  used on input line 665.
+Package pdftex.def Info: res/t2/t24/t24-WSS-plot.png  used on input line 660.
 (pdftex.def)             Requested size: 145.11052pt x 103.35071pt.
 <res/t2/t24/t24-BSS-plot.png, id=201, 969.6225pt x 690.58pt>
 File: res/t2/t24/t24-BSS-plot.png Graphic file (type png)
 <use res/t2/t24/t24-BSS-plot.png>
-Package pdftex.def Info: res/t2/t24/t24-BSS-plot.png  used on input line 671.
+Package pdftex.def Info: res/t2/t24/t24-BSS-plot.png  used on input line 666.
 (pdftex.def)             Requested size: 145.11052pt x 103.35071pt.
 <res/t2/t24/t24-Ratio-plot.png, id=202, 969.6225pt x 690.58pt>
 File: res/t2/t24/t24-Ratio-plot.png Graphic file (type png)
 <use res/t2/t24/t24-Ratio-plot.png>
-Package pdftex.def Info: res/t2/t24/t24-Ratio-plot.png  used on input line 677.
+Package pdftex.def Info: res/t2/t24/t24-Ratio-plot.png  used on input line 672.
 
 (pdftex.def)             Requested size: 145.11052pt x 103.35071pt.
- [17 <./res/t2/t23/t23-workflow.png>] [18 <./res/t2/t24/t24-plot21.png> <./res/
-t2/t24/t24-plot22.png> <./res/t2/t24/t24-plot23a.png> <./res/t2/t24/t24-plot23a
--dist.png> <./res/t2/t24/t24-plot23b.png> <./res/t2/t24/t24-plot23b-dist.png> <
-./res/t2/t24/t24-plot23c.png> <./res/t2/t24/t24-plot23c-dist.png> <./res/t2/t24
-/t24-WSS-plot.png> <./res/t2/t24/t24-BSS-plot.png> <./res/t2/t24/t24-Ratio-plot
-.png>]
-Underfull \hbox (badness 3375) in paragraph at lines 698--699
+ [17 <./res/t2/t23/t23-workflow.png>]
+[18 <./res/t2/t24/t24-plot21.png> <./res/t2/t24/t24-plot22.png> <./res/t2/t24/t
+24-plot23a.png> <./res/t2/t24/t24-plot23a-dist.png> <./res/t2/t24/t24-plot23b.p
+ng> <./res/t2/t24/t24-plot23b-dist.png> <./res/t2/t24/t24-plot23c.png> <./res/t
+2/t24/t24-plot23c-dist.png> <./res/t2/t24/t24-WSS-plot.png> <./res/t2/t24/t24-B
+SS-plot.png> <./res/t2/t24/t24-Ratio-plot.png>]
+Underfull \hbox (badness 3375) in paragraph at lines 693--694
 []\OT1/ptm/m/it/10.95 Shanker M, Hu MY, Hung MS, Ef-fect of Data Stan-dard-iza-
 tion on Neu-ral Net-work Train-ing
  []
@@ -1874,11 +1844,11 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31032 strings out of 478994
- 756325 string characters out of 5858184
- 1230519 words of memory out of 5000000
- 47860 multiletter control sequences out of 15000+600000
- 455350 words of font info for 126 fonts, out of 8000000 for 9000
+ 31037 strings out of 478994
+ 756370 string characters out of 5858184
+ 1230528 words of memory out of 5000000
+ 47863 multiletter control sequences out of 15000+600000
+ 456107 words of font info for 128 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,11n,103p,736b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1890,7 +1860,7 @@ mf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2021/texmf-dist/fon
 ts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (19 pages, 4744910 bytes).
+Output written on main.pdf (19 pages, 4746580 bytes).
 PDF statistics:
  253 PDF objects out of 1000 (max. 8388607)
  73 compressed objects within 1 object stream
