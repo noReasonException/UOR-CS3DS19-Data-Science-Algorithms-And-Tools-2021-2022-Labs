@@ -6,8 +6,8 @@
         <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
     </config>
     <config key="model">
-        <entry key="clustering_table_col_column" type="xstring" value="Cluster"/>
         <entry key="reference_table_col_column" type="xstring" value="class"/>
+        <entry key="clustering_table_col_column" type="xstring" value="Cluster"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -36,6 +36,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="4ba4ed6a-3a34-4501-a9c0-10824fde83ec"/>
+        <entry key="file_store_id" type="xstring" value="1e7f20d2-083e-474d-984e-d806a80a8590"/>
     </config>
 </config>
